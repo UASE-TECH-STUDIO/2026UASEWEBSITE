@@ -1,0 +1,69 @@
+{
+ "services": [
+  [
+   "IT Consultancy & Advisory",
+   "Guiding businesses on digital transformation, IT strategies, and solutions tailored to their needs."
+  ],
+  [
+   "Technical Problem-Solving",
+   "We troubleshoot and resolve IT issues across software, hardware, and networking challenges."
+  ],
+  [
+   "Software & Systems Development",
+   "We build custom applications, dynamic websites, and robust enterprise software."
+  ],
+  [
+   "Network & Infrastructure",
+   "We provide LAN/WAN setup, server deployments, and cybersecurity advisory."
+  ],
+  [
+   "ICT Training & Capacity Building",
+   "Training individuals and organizations on ICT skills and digital tools to empower teams."
+  ],
+  [
+   "Project & Academic Support",
+   "We guide students and organizations with SIWES, academic projects, and technical mentorship."
+  ]
+ ],
+ "cases": [
+  {
+   "title": "Network Infrastructure Upgrade for Abuja Firm",
+   "type": "Consultancy / Technical Solutions",
+   "problem": "A corporate client in Abuja was experiencing slow internet speeds, frequent disconnections, and major security vulnerabilities in their office network, affecting team productivity.",
+   "solution": "We conducted a full network audit, identified the bottlenecks, and then designed and deployed a new, secure, and high-speed network system using enterprise-grade hardware. We also configured firewalls and monitoring tools to enhance security.",
+   "outcome": "\"We successfully improved their internet speed and reduced network downtime by 70%, resulting in a more efficient and secure working environment for their entire team.\""
+  },
+  {
+   "title": "Student SIWES Project Guidance (Biochemistry Dept., Abuja)",
+   "type": "Training / Academic Support",
+   "problem": "Students from a biochemistry department lacked direction and technical expertise for their final-year projects, which required software development and data analysis components. They needed professional guidance and mentorship.",
+   "solution": "UASE Technology provided hands-on project guidance and mentorship. With direct support from our partners at UASE Tech Studio (USA), we helped the students structure their projects, provided coding assistance, and taught them how to use the necessary digital tools.",
+   "outcome": "\"The students successfully completed their projects, with several receiving high grades due to the robust technical implementation and clear project structure we helped them achieve.\""
+  },
+  {
+   "title": "NGO Digital Transformation",
+   "type": "IT Consultancy / Cloud Services",
+   "problem": "A non-profit organization relied on outdated, paper-based record-keeping and insecure local servers. They needed to modernize their operations and secure sensitive donor data to comply with regulations.",
+   "solution": "We conducted a comprehensive IT audit, migrated their data to a secure cloud-based platform, and implemented a robust cybersecurity framework. We also provided tailored training to their team on the new systems.",
+   "outcome": "\"The organization now operates more efficiently with a secure digital system, which has reduced operational costs and significantly enhanced data protection, increasing trust with donors and partners.\""
+  }
+ ],
+ "values": [
+  [
+   "Integrity",
+   "We do what we say."
+  ],
+  [
+   "Innovation",
+   "Global ideas, local solutions."
+  ],
+  [
+   "Partnership",
+   "Working with experts worldwide."
+  ],
+  [
+   "Excellence",
+   "All work delivered with precision."
+  ]
+ ]
+}

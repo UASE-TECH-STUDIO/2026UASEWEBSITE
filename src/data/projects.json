@@ -1,0 +1,1019 @@
+[
+ {
+  "title": "CARSTRIMS — Vehicle Marketplace & Dealer Platform (Web + iOS + Android)",
+  "tagline": "A full-scale SaaS platform connecting car dealers, partners, staff, and buyers across Nigeria.",
+  "client_type": "SaaS / Automotive / Nigerian Market",
+  "category": "web-apps",
+  "overview": "CARSTRIMS is a production-grade, multi-tenant car dealer management SaaS platform built for the Nigerian automotive market. The platform brings together five distinct user roles — Super Admin, Dealer Admin, Dealer Staff, Partner/Asset Owner, and Public Buyer — into a single cohesive system with role-based dashboards and granular permissions.\n\nDealer Admins manage full inventory (up to 10 photos + video per car), track sales with profit/loss reporting, manage expenses, onboard staff with permission control, handle partner relationships, respond to buyer requests, confirm appointments, log vehicle movements, export financial PDF reports, and generate QR codes per dealership.\n\nPublic users browse a live car feed with advanced filtering (brand, price, condition, transmission, fuel, state, year, color), like and save cars, place special requests, book appointments, and communicate via a full messaging system. Push notifications with sound and a service worker keep all users updated in real time. The platform is deployed on Vercel (frontend) and Render/Railway (backend API), with Cloudinary handling media storage and MongoDB Atlas as the primary database.",
+  "technologies": [
+   "Next.js",
+   "TypeScript",
+   "Capacitor (iOS + Android)",
+   "Zustand",
+   "Axios",
+   "FastAPI (Python)",
+   "Motor (async MongoDB)",
+   "MongoDB Atlas",
+   "Cloudinary",
+   "JWT Auth",
+   "Firebase Cloud Messaging (FCM V1)",
+   "WebSockets",
+   "Tailwind CSS",
+   "Vercel",
+   "Render",
+   "Xcode Cloud"
+  ],
+  "features": [
+   "Multi-tenant architecture supporting unlimited dealerships on a single platform",
+   "Full inventory management with 10 photos + video per car, edit, delete, mark sold",
+   "Sales tracking with profit/loss reporting and CSV export",
+   "Expense management with category breakdown",
+   "Staff management with 13 granular permission types",
+   "Partner/Asset Owner dashboard with earnings tracking and movement logs",
+   "Public car feed with advanced filtering across 7+ parameters",
+   "Special requests and appointment booking system",
+   "Full messaging system across all roles",
+   "Native iOS and Android apps plus push notifications (FCM) with DND toggle",
+   "QR code per dealership for instant profile access",
+   "Financial reports with PDF export",
+   "Super Admin platform control with broadcaster and analytics",
+   "Fully responsive with mobile bottom navigation"
+  ],
+  "slug": "carstrims-car-dealer-platform",
+  "thumbnail": "/images/projects/carstrims_thumbnail.jpg",
+  "screenshots": [
+   "/images/carstrims0.jpg",
+   "/images/carstrims1.jpg",
+   "/images/carstrims2.jpg",
+   "/images/carstrims3.jpg",
+   "/images/carstrims4.jpg",
+   "/images/carstrims5.jpg",
+   "/images/carstrims6.jpg",
+   "/images/carstrims7.jpg"
+  ],
+  "live": "https://www.carstrims.com",
+  "problem_solution": {
+   "problem": "Nigerian car dealerships lacked a unified digital platform for inventory, sales tracking, partner management, and customer engagement. Existing tools were not tailored for the multi-dealer, multi-role complexity of the local automotive market.",
+   "solution": "CARSTRIMS was built from the ground up as a full SaaS solution — a single platform that handles the entire lifecycle of a car dealership: from inventory listing and partner asset tracking, to buyer discovery, appointment booking, and financial reporting."
+  },
+  "expertise": [
+   "Architecting a production multi-tenant SaaS with 5 distinct role-based dashboards and permission systems.",
+   "Building a FastAPI async backend with Motor for high-performance MongoDB operations.",
+   "Packaging one Next.js codebase into native iOS and Android apps with Capacitor, including store submission, native permissions and safe-area handling.",
+   "Implementing push notifications on Firebase Cloud Messaging (FCM V1) and real-time messaging over WebSockets.",
+   "Designing a full dealership management suite: inventory, sales, expenses, staff, partner workflows.",
+   "Building a public car discovery feed with advanced multi-filter search and QR code integration.",
+   "Handling Cloudinary media pipelines for up to 10 images + video per car listing.",
+   "Deploying a distributed architecture across Vercel and Render with JWT token-based auth.",
+   "Implementing real-time messaging with polling and a full conversation management system."
+  ]
+ },
+ {
+  "title": "BloodLink — Blood Donor Management System",
+  "tagline": "A full-stack platform connecting blood donors, beneficiaries, and healthcare administrators.",
+  "client_type": "Healthcare / NGOs / Blood Banks",
+  "category": "web-apps",
+  "overview": "BloodLink is a production-ready full-stack web application that digitises the entire blood donation process — from donor registration and verification to blood request fulfilment and real-time email notifications.\n\nThe system connects three user groups: blood donors who register their blood group and availability; beneficiaries (patients or their representatives) who submit and track blood requests end-to-end; and administrators who verify donors, approve or reject requests, match donors to patients, and manage blood inventory across Nigerian states.\n\nEvery key action triggers an automated email notification via Resend. Donors earn a printable certificate of appreciation upon verification. The platform eliminates the manual, phone-based approach used by hospitals and blood banks, replacing it with a transparent, trackable digital workflow where every stakeholder is notified in real time.",
+  "technologies": [
+   "Next.js 14 (App Router)",
+   "TypeScript",
+   "Tailwind CSS",
+   "Next.js API Routes",
+   "MongoDB Atlas",
+   "Mongoose",
+   "NextAuth.js (JWT)",
+   "Resend (Email)",
+   "Vercel"
+  ],
+  "features": [
+   "Public donor search by blood group and Nigerian state with compatibility matching",
+   "Donor registration with admin verification before appearing in search results",
+   "Beneficiary blood request submission with urgency levels (Low/Medium/High/Critical)",
+   "Full admin request workflow: Approve → Match Donor → Mark Fulfilled",
+   "Blood inventory management across all 8 blood groups and Nigerian states",
+   "Automated email notifications at every step for donors and beneficiaries",
+   "Donor availability toggle (Available / Unavailable / On Cooldown)",
+   "Printable certificate of appreciation for verified donors",
+   "Role-based access control with protected route middleware",
+   "Fully responsive mobile layout with bottom navigation",
+   "Visual progress tracker on beneficiary dashboard",
+   "Urgency and status colour-coded badges across all dashboards"
+  ],
+  "slug": "bloodlink-blood-donor-management",
+  "thumbnail": "/images/projects/blood_donor_thumbnail.jpg",
+  "screenshots": [
+   "/images/blood0.jpg",
+   "/images/blood1.jpg",
+   "/images/blood2.jpg",
+   "/images/blood3.jpg",
+   "/images/blood4.jpg",
+   "/images/blood5.jpg",
+   "/images/blood6.jpg",
+   "/images/blood7.jpg",
+   "/images/blood8.jpg",
+   "/images/blood9.jpg",
+   "/images/blood10.jpg",
+   "/images/blood11.jpg",
+   "/images/blood12.jpg",
+   "/images/blood13.jpeg",
+   "/images/blood14.jpeg",
+   "/images/blood15.jpeg",
+   "/images/blood16.jpeg",
+   "/images/blood17.jpeg",
+   "/images/blood18.jpeg",
+   "/images/blood19.jpeg",
+   "/images/blood20.jpeg",
+   "/images/blood21.jpeg"
+  ],
+  "live": "https://blood-link-9icw.vercel.app/",
+  "problem_solution": {
+   "problem": "Blood shortages and delayed donor discovery during emergencies. Hospitals rely on manual, phone-based coordination with no visibility into donor availability or request status.",
+   "solution": "BloodLink provides a transparent, digital workflow where donors register and set availability, beneficiaries submit and track requests, and administrators coordinate the full process — all with automated email notifications at every step."
+  },
+  "expertise": [
+   "Designing a three-role system (Admin, Donor, Beneficiary) with NextAuth.js JWT session management.",
+   "Building a full blood request workflow: Pending → Approved → Matched → Fulfilled with admin controls.",
+   "Implementing automated transactional emails at every workflow step using Resend.",
+   "Designing a public donor search with blood group compatibility logic (e.g. O- as universal donor).",
+   "Building a blood inventory management system across Nigerian states with colour-coded stock levels.",
+   "Creating a printable donor certificate with print-optimised CSS layout.",
+   "Ensuring full mobile responsiveness with a bottom navigation bar and sidebar drawer on mobile.",
+   "Protecting all routes with role-based middleware redirects."
+  ]
+ },
+ {
+  "title": "High-Velocity Engineering: Async Jira Task Engine & TDD Suite",
+  "tagline": "A high-performance backend core built with Python 3.12+, FastAPI, and Pydantic V2.",
+  "client_type": "Internal Tooling / Enterprise Backend",
+  "category": "others",
+  "overview": "The 'High-Velocity Jira Task Engine' is a technical demonstration of modern backend engineering principles, focusing on high-performance concurrency and data integrity. Built using Python 3.12+, this engine utilizes Asynchronous IO (asyncio) to handle multiple task creations and status updates concurrently, simulating a high-traffic enterprise environment. The system leverages Pydantic V2 for strict data validation, ensuring that every task entering the system meets rigorous schema requirements before reaching the database layer. A core highlight of this project is the integrated Test-Driven Development (TDD) suite. This suite automatically verifies system reliability by running concurrent test engines that simulate real-world stress, ensuring 100% uptime and zero-error data processing. The modular architecture allows for easy integration with PostgreSQL or MongoDB, making it a scalable solution for modern software teams.",
+  "technologies": [
+   "Python 3.12",
+   "FastAPI",
+   "Pydantic V2",
+   "Asyncio",
+   "Pytest",
+   "TDD",
+   "REST API",
+   "JSON Schema",
+   "UUID4",
+   "NumPy"
+  ],
+  "features": [
+   "Asynchronous Task Engine capable of handling concurrent creation requests without performance lag.",
+   "Automated TDD Test Suite with terminal output verification and status reporting.",
+   "Pydantic-powered validation layer that prevents empty titles or invalid status transitions.",
+   "Real-time status tracking (To Do, In Progress, Done) with automated timestamps.",
+   "Scalable architecture designed for easy conversion into a full REST API with FastAPI.",
+   "Modular JiraService class that supports future database migrations (SQL/NoSQL)."
+  ],
+  "slug": "jira-task-engine",
+  "thumbnail": "/images/projects/backend_preview.jpg",
+  "screenshots": [
+   "/images/jira1.png",
+   "/images/jira2.png",
+   "/images/jira3.png",
+   "/images/jira4.png"
+  ],
+  "live": null,
+  "problem_solution": {
+   "problem": "Enterprise systems often struggle with data consistency and performance bottlenecks when handling high volumes of concurrent status updates and task creation.",
+   "solution": "Developed a modular, asynchronous engine using Python 3.12+ that utilizes non-blocking IO and Pydantic V2 validation. This ensures data integrity at the entry point and allows the system to scale horizontally with 100% reliability verified through TDD."
+  },
+  "expertise": [
+   "Developing high-performance asynchronous systems using Python 3.12 and asyncio for non-blocking execution.",
+   "Implementing strict data modeling and schema validation using Pydantic V2 field validators.",
+   "Applying Test-Driven Development (TDD) methodologies to build a self-verifying software architecture.",
+   "Utilizing UUID4 and Python Enum classes to ensure unique data identification and consistent state management.",
+   "Designing modular service layers that separate business logic from data storage for maximum scalability.",
+   "Simulating high-velocity concurrent environments to test system stability under heavy data loads."
+  ]
+ },
+ {
+  "title": "Smart Recipe Management Application",
+  "tagline": "A feature-rich platform for creating, managing, and discovering recipes.",
+  "client_type": "Food Creators / Home Cooks / Restaurants",
+  "category": "web-apps",
+  "overview": "The Smart Recipe Management Application is a full-stack web platform designed to help users create, organize, and discover cooking recipes in a structured and visually engaging way. Users can add detailed recipes including ingredients, step-by-step cooking instructions, images, and optional video references. Recipes can be categorized, searched, and filtered to improve discoverability and user experience.\n\nThe system includes a robust administrative backend for managing recipe content, moderating user submissions, and organizing categories. Its responsive design ensures seamless usage across desktop, tablet, and mobile devices, making it suitable for both personal and professional culinary use.",
+  "technologies": [
+   "Next.js",
+   "React.js",
+   "TypeScript",
+   "Tailwind CSS",
+   "Node.js",
+   "Express.js",
+   "MongoDB",
+   "Mongoose"
+  ],
+  "features": [
+   "Create, edit, and delete recipes",
+   "Ingredient lists with measurements",
+   "Step-by-step cooking instructions",
+   "Recipe images and optional video links",
+   "Search, filter, and category-based discovery",
+   "Admin moderation and content control",
+   "Fully responsive user interface"
+  ],
+  "slug": "recipe-management-app",
+  "thumbnail": "/images/projects/recipe_app_thumbnail.jpg",
+  "screenshots": [
+   "/images/recipe0.jpg",
+   "/images/recipe1.jpg",
+   "/images/recipe2.jpg",
+   "/images/recipe3.jpg",
+   "/images/recipe4.jpg",
+   "/images/recipe5.jpg",
+   "/images/recipe6.jpg",
+   "/images/recipe7.jpg",
+   "/images/recipe8.jpg",
+   "/images/recipe9.jpg",
+   "/images/recipe10.jpeg",
+   "/images/recipe11.jpeg",
+   "/images/recipe12.jpeg",
+   "/images/recipe13.jpeg",
+   "/images/recipe14.jpeg",
+   "/images/recipe15.jpeg",
+   "/images/recipe16.jpeg",
+   "/images/recipe17.jpeg",
+   "/images/recipe18.jpeg",
+   "/images/recipe19.jpeg"
+  ],
+  "live": "https://recipes-one-alpha.vercel.app/",
+  "problem_solution": {
+   "problem": "Many recipe platforms are cluttered, difficult to manage, or lack structured content organization.",
+   "solution": "This application provides a clean, structured, and scalable recipe management system with intuitive navigation and powerful content organization."
+  },
+  "expertise": [
+   "Designing scalable RESTful APIs for recipe and category management.",
+   "Implementing dynamic frontend interfaces with React and Tailwind CSS.",
+   "Structuring flexible MongoDB schemas for ingredients, steps, and media assets.",
+   "Handling file uploads and media presentation securely.",
+   "Building responsive and accessible UI components."
+  ]
+ },
+ {
+  "title": "Blood Donor Management System",
+  "tagline": "Connecting blood donors, recipients, and healthcare institutions efficiently.",
+  "client_type": "Healthcare / NGOs / Blood Banks",
+  "category": "web-apps",
+  "overview": "The Blood Donor Management System is a life-impacting web application designed to bridge the gap between blood donors, beneficiaries, and healthcare institutions. Donors can register their blood groups and availability, while beneficiaries can submit blood requests during emergencies.\n\nAdministrators have full control over donor verification, request approvals, and request tracking. The system improves response time during critical situations and ensures transparency in blood donation processes.",
+  "technologies": [
+   "Next.js",
+   "React.js",
+   "TypeScript",
+   "Tailwind CSS",
+   "Node.js",
+   "MongoDB",
+   "Mongoose"
+  ],
+  "features": [
+   "Donor registration and profile management",
+   "Blood request submission and tracking",
+   "Admin approval and rejection workflows",
+   "Request status updates",
+   "Role-based access control",
+   "Responsive dashboard interfaces"
+  ],
+  "slug": "blood-donor-management-system",
+  "thumbnail": "/images/projects/blood_donor_thumbnail.jpg",
+  "screenshots": [
+   "/images/blood0.jpg",
+   "/images/blood1.jpg",
+   "/images/blood2.jpg",
+   "/images/blood3.jpg",
+   "/images/blood4.jpg",
+   "/images/blood5.jpg",
+   "/images/blood6.jpg",
+   "/images/blood7.jpg",
+   "/images/blood8.jpg",
+   "/images/blood9.jpg",
+   "/images/blood10.jpg",
+   "/images/blood11.jpg",
+   "/images/blood12.jpg",
+   "/images/blood13.jpeg",
+   "/images/blood14.jpeg",
+   "/images/blood15.jpeg",
+   "/images/blood16.jpeg",
+   "/images/blood17.jpeg",
+   "/images/blood18.jpeg",
+   "/images/blood19.jpeg",
+   "/images/blood20.jpeg",
+   "/images/blood21.jpeg",
+   "/images/blood22.jpeg"
+  ],
+  "live": "https://blood-link-9icw.vercel.app/",
+  "problem_solution": {
+   "problem": "Blood shortages and delayed donor discovery during emergencies.",
+   "solution": "The system enables fast donor identification and streamlined blood request handling."
+  },
+  "expertise": [
+   "Designing multi-role systems (donor, beneficiary, admin).",
+   "Implementing request approval workflows.",
+   "Secure handling of sensitive health-related data.",
+   "Building scalable dashboards for real-time monitoring."
+  ]
+ },
+ {
+  "title": "Deliciously Simple: The Food Ordering Application (Web + Android APK)",
+  "tagline": "A full-stack food ordering platform with web and native Android APK access.",
+  "client_type": "Restaurant / Food Delivery Startup",
+  "category": "mobile-apps",
+  "overview": "The 'Deliciously Simple' Food Ordering Application is a comprehensive digital platform designed to revolutionize how customers order and manage their favorite meals. This full-stack solution, accessible via both a modern web interface and a native Android APK, empowers users to browse menus, customize orders, and make secure payments from the comfort of their homes. Customers can track their orders in real-time, view their complete order history, and even request modifications or cancellations (within defined parameters). For restaurant management, the application provides a powerful backend system to effortlessly edit and add menu items, control inventory, and manage user accounts. A standout feature is the integrated live chat system, allowing management to communicate directly with customers. This includes a pre-programmed bot for instant first replies, ensuring immediate customer engagement until a human representative takes over. Management can also efficiently oversee order fulfillment, adjust delivery times, and update order statuses, with all changes instantly reflected on the customer's order history page. Furthermore, the system includes robust user management capabilities, enabling administrators to edit user details upon request, block or delete users for policy violations, and control overall user access. A built-in newsletter subscription feature allows customers to opt-in for exclusive discounts and updates, fostering loyalty and driving repeat business. This application represents a seamless, intuitive, and feature-rich experience for both diners and food service providers.",
+  "technologies": [
+   "React.js",
+   "Next.js",
+   "TypeScript",
+   "Tailwind CSS",
+   "Node.js",
+   "Express.js",
+   "MongoDB",
+   "Capacitor",
+   "Axios",
+   "Stripe API"
+  ],
+  "features": [
+   "User-friendly interface to browse menus, add items to cart, and place orders efficiently.",
+   "Dedicated Admin panel with comprehensive order management, menu management (add/edit/delete items), and user management controls.",
+   "Secure payment and checkout flow seamlessly integrated with Stripe.",
+   "Fully responsive design for optimal viewing and interaction on desktop and mobile browsers.",
+   "Native Android APK app offering equivalent features and a smooth, integrated mobile experience.",
+   "Real-time order tracking and status updates for customers.",
+   "User profile management and order history."
+  ],
+  "slug": "food-ordering-app",
+  "thumbnail": "/images/projects/food_thumbnail.jpg",
+  "screenshots": [
+   "/images/food_ordering_app_screenshot_1.jpg",
+   "/images/food_ordering_app_screenshot_2.jpg",
+   "/images/food_ordering_app_screenshot_3.jpg",
+   "/images/food_ordering_app_screenshot_4.jpg",
+   "/images/food_ordering_app_screenshot_5.jpg",
+   "/images/food_ordering_app_screenshot_6.jpg",
+   "/images/food_ordering_app_screenshot_7.jpg",
+   "/images/food_ordering_app_screenshot_8.jpg"
+  ],
+  "live": "https://unilag-foodapp.vercel.app/",
+  "problem_solution": {
+   "problem": "Many restaurants lacked a modern, efficient, and mobile-friendly way for customers to order food online, leading to missed sales and customer inconvenience, especially on mobile devices.",
+   "solution": "Developed a user-friendly web and native Android application that provides a smooth ordering experience, secure payments via Stripe, and real-time tracking. The use of React/Next.js and Capacitor ensured a high-performance, cross-platform solution, enhancing customer satisfaction and boosting restaurant sales."
+  },
+  "expertise": [
+   "Building a scalable React & Next.js frontend with responsive Tailwind CSS styling for a modern, engaging UI.",
+   "Managing complex state using React Hooks and Context API for seamless user interactions and efficient data flow.",
+   "Designing and implementing robust RESTful APIs in Node.js and integrating MongoDB for flexible, schema-less data storage tailored for dynamic food menus and orders.",
+   "Implementing secure payment processing with Stripe API integration for real-time, multi-option credit card payments and efficient checkout flows.",
+   "Developing comprehensive user management with secure authentication, profile management, and role-based access control.",
+   "Creating an advanced order management system with real-time updates for both customers and restaurant administrators.",
+   "Implementing dynamic menu management functionalities for administrators (add/update/delete dishes, categories, and pricing).",
+   "Utilizing Capacitor for mobile app packaging and deployment, converting the web application into a native Android APK with equivalent features and smooth performance, enabling offline support and native mobile functionalities."
+  ]
+ },
+ {
+  "title": "UNILAGEats: Campus Food Delivery Application (Web + Android APK)",
+  "tagline": "A campus-focused food ordering and delivery platform designed exclusively for university communities.",
+  "client_type": "Universities / Campus Food Vendors / Student Communities",
+  "category": "mobile-apps",
+  "overview": "UNILAGEats is a comprehensive campus food delivery application specifically designed to serve university environments, where traditional city-wide food delivery platforms often fall short. The platform provides students with a seamless way to order meals from approved on-campus food vendors, cafeterias, and food courts using both a modern web interface and a native Android APK.\n\nStudents can browse vendor menus, customize their orders, and place requests securely within the campus ecosystem. Orders are tracked in real time, allowing users to monitor preparation and delivery progress without leaving the application. The platform enforces campus-based restrictions, ensuring that only verified students and authorized vendors can access services.\n\nFor vendors and administrators, UNILAGEats offers a powerful backend system for managing menus, orders, availability, and delivery workflows. Administrators can onboard vendors, manage user accounts, monitor transactions, and oversee platform activity. The Android APK version ensures smooth mobile performance, offline resilience for limited connectivity scenarios, and native device integration tailored to student usage patterns.",
+  "technologies": [
+   "React.js",
+   "Next.js",
+   "TypeScript",
+   "Tailwind CSS",
+   "Node.js",
+   "Express.js",
+   "MongoDB",
+   "Capacitor",
+   "Axios",
+   "Payment Gateway Integration"
+  ],
+  "features": [
+   "Student authentication and campus-based user verification",
+   "Multi-vendor campus food listings and categorized menus",
+   "Meal customization and cart-based ordering system",
+   "Real-time order tracking and status updates",
+   "Vendor dashboard for managing menus and incoming orders",
+   "Administrative panel for vendor onboarding and system oversight",
+   "Fully responsive web interface for desktop and mobile browsers",
+   "Native Android APK with equivalent features and smooth performance",
+   "Order history and user profile management"
+  ],
+  "slug": "campus-food-delivery-app",
+  "thumbnail": "/images/projects/campus_food_thumbnail.jpeg",
+  "screenshots": [
+   "/images/unilag-food-app1.jpeg",
+   "/images/unilag-food-app2.jpeg",
+   "/images/unilag-food-app3.jpeg",
+   "/images/unilag-food-app4.jpeg",
+   "/images/unilag-food-app5.jpeg",
+   "/images/unilag-food-app6.jpeg",
+   "/images/unilag-food-app7.jpeg",
+   "/images/unilag-food-app8.jpeg",
+   "/images/unilag-food-app9.jpeg",
+   "/images/unilag-food-app10.jpeg",
+   "/images/unilag-food-app11.jpeg",
+   "/images/unilag-food-app12.jpeg"
+  ],
+  "live": null,
+  "problem_solution": {
+   "problem": "University students often struggle to access reliable food delivery services within campus environments due to location restrictions, security concerns, and lack of vendor integration. Existing city-wide food apps are not optimized for campus operations.",
+   "solution": "UNILAGEats was developed as a campus-first food delivery solution, providing a controlled, secure, and optimized platform that connects students directly with on-campus vendors. The system improves convenience, reduces order delays, and enhances food service accessibility within the university ecosystem."
+  },
+  "expertise": [
+   "Designing campus-restricted multi-vendor food delivery architectures.",
+   "Building scalable React and Next.js frontends optimized for student usage and mobile responsiveness.",
+   "Managing application state efficiently using modern React patterns for smooth ordering flows.",
+   "Developing secure RESTful APIs with Node.js and Express for order, vendor, and user management.",
+   "Structuring MongoDB schemas for vendors, menus, campus zones, and delivery tracking.",
+   "Packaging and deploying the web application as a native Android APK using Capacitor.",
+   "Implementing role-based access control for students, vendors, and administrators.",
+   "Optimizing performance for low-bandwidth campus network environments."
+  ]
+ },
+ {
+  "title": "Film House Cinema Booking System",
+  "tagline": "A modern cinema booking and management platform.",
+  "client_type": "Entertainment / Cinema Management",
+  "category": "web-apps",
+  "overview": "The Film House Cinema Booking System is a full-stack web application designed to modernize movie ticket booking and cinema operations. Users can browse available movies, select showtimes, choose seats dynamically, and complete secure bookings.\n\nAdministrators manage movie listings, showtimes, and customer messages via a dedicated dashboard. The system ensures smooth customer experience while simplifying cinema management workflows.",
+  "technologies": [
+   "Next.js 15",
+   "React.js",
+   "TypeScript",
+   "Prisma ORM",
+   "PostgreSQL",
+   "NextAuth v5",
+   "Tailwind CSS",
+   "Node.js",
+   "bcryptjs"
+  ],
+  "features": [
+   "User authentication and profile management",
+   "Movie listings and showtime scheduling",
+   "Dynamic seat selection",
+   "Admin movie and message management",
+   "Secure booking workflow"
+  ],
+  "slug": "film-house-cinema",
+  "thumbnail": "/images/projects/filmhouse_thumbnail.jpeg",
+  "screenshots": [
+   "/images/film-house3.jpg",
+   "/images/film-house4.jpg",
+   "/images/film-house5.jpg",
+   "/images/film-house6.jpg",
+   "/images/film-house7.jpg",
+   "/images/film-house8.jpg",
+   "/images/film-house9.jpg",
+   "/images/film-house10.jpg",
+   "/images/film-house11.jpg",
+   "/images/film-house12.jpg",
+   "/images/film-house13.jpg"
+  ],
+  "live": "https://film-house-eight.vercel.app/",
+  "problem_solution": {
+   "problem": "Manual or outdated cinema booking systems reduce customer satisfaction.",
+   "solution": "The platform provides a streamlined digital booking experience with real-time seat selection."
+  },
+  "expertise": [
+   "Implementing secure authentication with NextAuth.",
+   "Dynamic seat selection logic and pricing calculation.",
+   "Database modeling using Prisma ORM.",
+   "Admin dashboard design and management."
+  ]
+ },
+ {
+  "title": "Student Clearance Management System",
+  "tagline": "Automating academic and administrative clearance workflows.",
+  "client_type": "Universities / Polytechnics",
+  "category": "web-apps",
+  "overview": "The Student Clearance Management System digitizes the traditional paper-based clearance process used in higher institutions. Students submit clearance requests online, while departments review, approve, or reject requests digitally.\n\nAdministrators gain full oversight of clearance progress, reducing delays, errors, and manual tracking.",
+  "technologies": [
+   "Next.js",
+   "React.js",
+   "TypeScript",
+   "Node.js",
+   "MongoDB"
+  ],
+  "features": [
+   "Online clearance request submission",
+   "Departmental approval stages",
+   "Admin oversight and reporting",
+   "Status tracking and notifications"
+  ],
+  "slug": "student-clearance-system",
+  "thumbnail": "/images/projects/clearance_thumbnail.jpg",
+  "screenshots": [
+   "/images/clearance0.jpg",
+   "/images/clearance1.jpg",
+   "/images/clearance2.jpg",
+   "/images/clearance4.jpg",
+   "/images/clearance5.jpg",
+   "/images/clearance6.jpg",
+   "/images/clearance7.jpg",
+   "/images/clearance8.jpg"
+  ],
+  "live": "https://clearance-system-three.vercel.app/",
+  "problem_solution": {
+   "problem": "Manual clearance processes cause delays and loss of records.",
+   "solution": "The system ensures transparency, speed, and accuracy through automation."
+  },
+  "expertise": [
+   "Designing multi-department approval workflows.",
+   "Building role-based dashboards.",
+   "Optimizing institutional process automation."
+  ]
+ },
+ {
+  "title": "Medical Resource Procurement System",
+  "tagline": "Streamlining medical supply sourcing and approval.",
+  "client_type": "Hospitals / Health Institutions",
+  "category": "web-apps",
+  "overview": "The Medical Resource Procurement System is designed to manage the sourcing, approval, and tracking of medical supplies within healthcare institutions. Departments submit procurement requests, which are reviewed and approved by authorized personnel.\n\nThe platform improves accountability, inventory visibility, and operational efficiency.",
+  "technologies": [
+   "Next.js",
+   "React.js",
+   "TypeScript",
+   "Node.js",
+   "MongoDB"
+  ],
+  "features": [
+   "Medical supply request management",
+   "Approval workflows",
+   "Vendor and inventory tracking",
+   "Procurement reports"
+  ],
+  "slug": "medical-resource-procurement-system",
+  "thumbnail": "/images/projects/medical_procurement_thumbnail.jpeg",
+  "screenshots": [
+   "/images/medical0.jpeg",
+   "/images/medical1.jpeg",
+   "/images/medical2.jpeg",
+   "/images/medical3.jpeg",
+   "/images/medical4.jpeg",
+   "/images/medical5.jpeg"
+  ],
+  "live": null,
+  "problem_solution": {
+   "problem": "Unstructured procurement processes cause delays and inefficiencies.",
+   "solution": "This system centralizes and automates medical resource procurement."
+  },
+  "expertise": [
+   "Designing approval-based procurement workflows.",
+   "Inventory tracking and reporting logic.",
+   "Secure handling of institutional data."
+  ]
+ },
+ {
+  "title": "Court Order Management System",
+  "tagline": "Secure digital management of court orders and compliance tracking.",
+  "client_type": "Judiciary / Legal Institutions",
+  "category": "web-apps",
+  "overview": "The Court Order Management System is a Django-powered web application developed to digitize the creation, issuance, and tracking of court orders. Judicial officers can issue court orders electronically, assign them to enforcement bodies, and monitor compliance status.\n\nThe system ensures document integrity, auditability, and secure access to sensitive legal records, eliminating the risks associated with paper-based court documentation.",
+  "technologies": [
+   "Python",
+   "Django",
+   "Django ORM",
+   "PostgreSQL",
+   "HTML5",
+   "CSS3",
+   "JavaScript",
+   "Bootstrap"
+  ],
+  "features": [
+   "Digital creation and issuance of court orders",
+   "Role-based access (Judges, Registrars, Enforcement)",
+   "Order status tracking and compliance monitoring",
+   "Secure document storage",
+   "Administrative oversight dashboard"
+  ],
+  "slug": "court-order-management-system",
+  "thumbnail": "/images/projects/court_order_thumbnail.jpeg",
+  "screenshots": [
+   "/images/court0.jpeg",
+   "/images/court1.jpeg",
+   "/images/court2.jpeg",
+   "/images/court3.jpeg"
+  ],
+  "live": null,
+  "problem_solution": {
+   "problem": "Paper-based court order management is prone to loss, delays, and manipulation.",
+   "solution": "The system digitizes court orders with secure access and full audit trails."
+  },
+  "expertise": [
+   "Designing secure legal document management systems.",
+   "Implementing Django-based role permissions.",
+   "Audit logging and compliance tracking.",
+   "Form handling and document storage."
+  ]
+ },
+ {
+  "title": "Crime Tracking System Web App",
+  "tagline": "A robust web-based application for efficient crime reporting and management.",
+  "client_type": "Internal Project (Prototype) / Law Enforcement / Public Sector",
+  "category": "web-apps",
+  "overview": "The Crime Tracking System is a robust web-based application designed to modernize and streamline the reporting and management of criminal activities. It provides law enforcement agencies with a powerful tool to efficiently record incidents, track their status, and analyze crime patterns. This system enhances public safety by enabling faster response times and more strategic deployment of resources through real-time data and comprehensive administrative controls.",
+  "technologies": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "jQuery",
+   "PHP",
+   "MySQL",
+   "Bootstrap",
+   "Figma (for UI)"
+  ],
+  "features": [
+   "Detailed crime reporting with categorization, location tagging, and status tracking.",
+   "Interactive comments system with likes and threaded replies to foster community interaction.",
+   "Centralized Admin dashboard for alert management, user/admin control, and full CRUD operations on crimes and alerts.",
+   "Secure registration and management of multiple administrative users with unique IDs.",
+   "Real-time alerts and notifications for newly reported or updated crimes.",
+   "Comprehensive crime viewing and detailed information display for each reported incident.",
+   "Ability to view, add, edit, and delete crimes and alerts."
+  ],
+  "slug": "crime-tracking-system",
+  "thumbnail": "/images/projects/crime_thumbnail.jpg",
+  "screenshots": [
+   "/images/crime_tracking_system_screenshot_1.jpg",
+   "/images/crime_tracking_system_screenshot_2.jpg",
+   "/images/crime_tracking_system_screenshot_3.jpg",
+   "/images/crime_tracking_system_screenshot_4.jpg",
+   "/images/crime_tracking_system_screenshot_5.jpg",
+   "/images/crime_tracking_system_screenshot_6.jpg",
+   "/images/crime_tracking_system_screenshot_7.jpg",
+   "/images/crime_tracking_system_screenshot_8.jpg"
+  ],
+  "live": "http://uase-tech-studio.42web.io/index.php",
+  "problem_solution": {
+   "problem": "Many communities lack centralized platforms to report or track local criminal activity. Information is often delayed, hidden, or scattered.",
+   "solution": "We designed a simple-to-use, secure web platform using PHP and MySQL for anonymous reporting and visualization of crime data. This fosters transparency, faster response times, and community safety."
+  },
+  "expertise": [
+   "Building secure multi-user authentication and role-based admin access with PHP and MySQL.",
+   "Implementing comprehensive CRUD operations for crime reports, alerts, and user management using PHP for backend logic.",
+   "Developing dynamic UI updates with AJAX and jQuery for real-time comments, likes, and threaded replies.",
+   "Designing and implementing an extensive Admin dashboard for managing crimes, comments, alerts, and administrators (including add/edit/delete functionality) with PHP.",
+   "Creating an alerts and notifications system for critical crime updates.",
+   "Ensuring mobile-first responsive design using the Bootstrap framework for optimal accessibility across devices.",
+   "Implementing robust security features including session handling and input validation against common vulnerabilities in PHP applications."
+  ]
+ },
+ {
+  "title": "UASE Tech Studio: Official Website & Portfolio (This Platform)",
+  "tagline": "Building a robust digital presence for UASE Tech Studio itself.",
+  "client_type": "Internal Project / Brand Showcase",
+  "category": "web-apps",
+  "overview": "This is the official online platform for UASE Tech Studio, meticulously designed and developed to serve as a comprehensive portfolio and information hub. Built with Django, this full-stack website showcases our diverse technical capabilities, featuring detailed project pages, service descriptions, and testimonials. It embodies modern UI/UX principles, ensuring responsiveness across all devices, and integrates robust backend functionalities like secure contact forms with reCAPTCHA, dynamic content management via Django Admin, and user authentication. This platform is a testament to our commitment to delivering high-quality, scalable, and secure digital solutions.",
+  "technologies": [
+   "Django",
+   "Python",
+   "HTML5",
+   "CSS3",
+   "JavaScript",
+   "Bootstrap 5",
+   "SQLite (development)",
+   "PostgreSQL (production ready)",
+   "Django Admin",
+   "Static File Management",
+   "Responsive Design",
+   "MS Office Suite (for content planning/documentation)",
+   "CorelDRAW (for logo/branding elements)"
+  ],
+  "features": [
+   "Modern, responsive, and innovative UI/UX design adaptable to all devices.",
+   "Dynamic content management for services, projects, and testimonials via an intuitive Django Admin interface.",
+   "Interactive portfolio showcasing detailed project pages with direct live demo links and detailed case studies.",
+   "Comprehensive \"About Us\" and \"Services\" sections providing in-depth information about UASE Tech Studio's offerings and expertise.",
+   "Secure and functional contact form with reCAPTCHA for spam protection and automated email notifications to ensure reliable communication.",
+   "User authentication system (login/logout/register) for future features, suchs as premium resources or client dashboards.",
+   "Optimized for fast loading speeds and a smooth user experience across the site."
+  ],
+  "slug": "uase-tech-studio-website",
+  "thumbnail": "/images/projects/uase_website_thumbnail.jpg",
+  "screenshots": [
+   "/images/uase_website_screenshot_1.jpg"
+  ],
+  "live": "https://uase.tech",
+  "problem_solution": null,
+  "expertise": [
+   "Full-stack development combining robust backend logic with modern, responsive frontend design, ensuring a seamless user experience.",
+   "Comprehensive Django framework expertise: advanced URL routing, templating, powerful database ORM, and secure user authentication and authorization.",
+   "Seamless Bootstrap integration for creating a highly responsive and visually appealing UI, adaptable to all screen sizes.",
+   "Utilizing Python for efficient backend business logic, secure form handling, and potential API integrations.",
+   "Implementing JavaScript for dynamic UI enhancements, client-side form validations, and interactive effects across the site.",
+   "Strategic planning and execution for a secure user contact form with reCAPTCHA integration for spam protection and automated email notifications.",
+   "Developing a comprehensive content management system (CMS) via Django Admin for easy updates of services, projects, testimonials, and other site content.",
+   "Optimizing for fast loading speeds and a smooth user experience across the site."
+  ]
+ },
+ {
+  "title": "IT Consultancy Website",
+  "tagline": "Business consultancy and IT solutions for Nigerian companies.",
+  "client_type": "Corporate Project",
+  "category": "web-apps",
+  "overview": "A Django-based corporate consultancy website tailored to Nigerian corporate needs. The platform provides IT and business services with a responsive, professional design, backend integration, and optimized CMS features.",
+  "technologies": [
+   "Django",
+   "Bootstrap",
+   "jQuery",
+   "SQLite"
+  ],
+  "features": [
+   "Service listing and detailed descriptions",
+   "Contact and inquiry forms with validation",
+   "Responsive corporate theme for all devices",
+   "SEO-optimized structure with clean URLs",
+   "Easily extendable CMS for future services"
+  ],
+  "slug": "it-consultancy",
+  "thumbnail": "/images/projects/it_consultancy_thumbnail.jpg",
+  "screenshots": [],
+  "live": "https://uase.tech",
+  "problem_solution": {
+   "problem": "A Nigerian consultancy firm lacked an effective online presence to showcase their IT and business solutions.",
+   "solution": "We developed a Django-powered corporate site with integrated service listings, responsive design, and SEO optimization, enabling the firm to reach more clients and improve credibility."
+  },
+  "expertise": [
+   "Backend integration, CMS design, corporate website development, and SEO optimization."
+  ]
+ },
+ {
+  "title": "Brand Identity & Company Profile Design",
+  "tagline": "Crafting cohesive visual identities and professional company profiles for businesses.",
+  "client_type": "Various Businesses / Branding & Corporate Design",
+  "category": "ui-ux",
+  "overview": "Developed comprehensive brand identity packages for various businesses, including logo design, color palettes, typography, and visual guidelines. This service extends to **designing and restructuring professional company profiles and presentations**, ensuring a consistent and memorable brand presence across all digital and print media. Our work helps businesses establish a strong market identity and present themselves effectively to stakeholders, utilizing tools like CorelDRAW and Adobe Photoshop for high-quality visual outputs.",
+  "technologies": [
+   "Adobe Illustrator",
+   "Adobe Photoshop",
+   "CorelDRAW",
+   "Canva Pro",
+   "Color Theory",
+   "Typography Principles",
+   "Brand Guidelines Creation",
+   "Microsoft PowerPoint",
+   "Microsoft Word"
+  ],
+  "features": [
+   "Primary and secondary logo designs.",
+   "Defined brand color palette (CMYK, RGB, Hex codes).",
+   "Recommended typography hierarchy.",
+   "Usage guidelines for brand elements.",
+   "Mockups demonstrating brand application on various collateral.",
+   "**Professional company profile design and layout.**",
+   "**Corporate presentation design and restructuring.**",
+   "**Infographics and data visualization for reports.**"
+  ],
+  "slug": "branding-identity-package",
+  "thumbnail": "/images/projects/branding_design.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "New businesses often lack a strong, cohesive visual identity and struggle to present their corporate profile professionally, leading to brand recognition issues and inconsistent messaging.",
+   "solution": "Created distinct brand identity packages and designed professional company profiles, brochures, and presentations. This provided businesses with unique logos, consistent visual elements, and clear guidelines, establishing a strong and memorable brand presence while enhancing their corporate communication using tools like CorelDRAW and Photoshop."
+  },
+  "expertise": [
+   "Conducting in-depth brand research to understand client values and target audience.",
+   "Designing unique and memorable logos that resonate with brand identity.",
+   "Developing cohesive color palettes and typography systems for visual consistency.",
+   "Creating comprehensive brand guidelines documents for consistent application.",
+   "Producing versatile visual assets for various marketing channels (digital, print, merchandise).",
+   "**Structuring and designing engaging company profiles, brochures, and presentations.**",
+   "**Utilizing CorelDRAW and Adobe Photoshop for high-quality graphic design and image manipulation.**"
+  ]
+ },
+ {
+  "title": "Palatables Restaurant Concept Site UI",
+  "tagline": "A modern UI/UX prototype for a hypothetical restaurant \"Taste Haven by Jilong\".",
+  "client_type": "Concept / UI/UX Design Study",
+  "category": "ui-ux",
+  "overview": "This project focuses purely on the UI/UX design aspect of a modern restaurant website. It features an elegant layout, intuitive navigation, and visually appealing elements designed to enhance the online dining experience for \"Taste Haven by Jilong\".",
+  "technologies": [
+   "Figma",
+   "Adobe XD",
+   "UI/UX Principles"
+  ],
+  "features": [
+   "Interactive menu display with high-quality images.",
+   "Online reservation system concept.",
+   "Responsive design for tablet and mobile viewing.",
+   "Consistent branding and visual hierarchy.",
+   "Smooth user flow for browsing and ordering."
+  ],
+  "slug": "palatables-restaurant-concept",
+  "thumbnail": "/images/projects/palatables_thumbnail.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "Many restaurant websites are outdated or offer poor user experiences, hindering customer engagement and online ordering processes.",
+   "solution": "Designed a clean, modern, and highly intuitive UI/UX prototype for a hypothetical restaurant. The design prioritizes visual appeal, easy navigation, and seamless interaction, aiming to convert online visitors into actual diners."
+  },
+  "expertise": []
+ },
+ {
+  "title": "Empowering Futures: The 3-Month Training Platform",
+  "tagline": "An engaging landing page for a skill acquisition training program.",
+  "client_type": "Educational Institution / Skill Development Program",
+  "category": "training",
+  "overview": "This project involved creating an engaging and informative landing page for a 3-month skill acquisition training program. The platform is designed to provide prospective students with all necessary details about the curriculum, schedule, and benefits, encouraging sign-ups. Its user-friendly interface and clear calls to action streamline the enrollment process, making essential information easily accessible.",
+  "technologies": [
+   "HTML5",
+   "CSS3",
+   "JavaScript",
+   "Bootstrap",
+   "MS Office Suite (for content preparation)"
+  ],
+  "features": [
+   "Detailed training curriculum and schedule presentation.",
+   "Engaging UI designed to drive registrations and inquiries through clear information display.",
+   "Informational landing pages providing a comprehensive overview of the course.",
+   "Prominent calls to action for easy enrollment."
+  ],
+  "slug": "3-month-training-website",
+  "thumbnail": "/images/projects/3-month-training_thumbnail.jpg",
+  "screenshots": [
+   "/images/training_website_screenshot_1.jpg",
+   "/images/training_website_screenshot_2.jpg"
+  ],
+  "live": "https://3days-website-training.vercel.app/",
+  "problem_solution": {
+   "problem": "Existing training programs lacked a structured, engaging, and accessible online platform for students to learn and track their progress effectively, particularly for a short, intensive course.",
+   "solution": "Developed a comprehensive e-learning landing page that offers structured course delivery and interactive content, designed to attract and inform prospective students about the 3-month skill acquisition program, facilitating effective enrollment and learning."
+  },
+  "expertise": [
+   "Designing responsive, mobile-first layouts using Bootstrap and custom CSS for broad accessibility and optimal viewing on any device.",
+   "Creating user-experience focused UIs with clear calls to action (CTAs) and smooth scrolling navigation to guide users effectively.",
+   "Implementing simple yet effective JavaScript interactivity for engaging animations and client-side form validation, enhancing user input quality.",
+   "Structuring engaging and easily digestible content for effective knowledge transfer and high user retention in an educational context."
+  ]
+ },
+ {
+  "title": "Seamless Enrollment: 3-Days Training Registration Form",
+  "tagline": "A clean, intuitive, and responsive online registration form.",
+  "client_type": "Educational Program / Event Registration",
+  "category": "training",
+  "overview": "This project focused on developing a clean, intuitive, and responsive online registration form for a short-term training program. Designed for efficient data capture, it incorporates robust client-side validation to ensure data accuracy and improve user experience. The form is built to be easily integrated with various backend systems or third-party form handling services, providing a seamless registration process for attendees.",
+  "technologies": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "MS Office Suite (for data handling)",
+   "CorelDRAW (for form design elements)"
+  ],
+  "features": [
+   "Efficient and secure collection of participant information.",
+   "Real-time client-side validation to provide immediate feedback and guide users.",
+   "Clean and minimalistic design for a straightforward and frictionless registration process.",
+   "Integration-ready form for seamless backend processing or connection with third-party form handling services (e.g., Formspark)."
+  ],
+  "slug": "3-days-training-registration",
+  "thumbnail": "/images/projects/3-days-training_thumbnail.jpg",
+  "screenshots": [
+   "/images/training_registration_form_screenshot_1.jpg"
+  ],
+  "live": "https://3days-training-registration.vercel.app/",
+  "problem_solution": {
+   "problem": "The training program needed a dedicated, user-friendly, and reliable method for participants to register online, ensuring smooth data collection.",
+   "solution": "Developed a standalone, responsive registration form with robust client-side validation, ensuring efficient and secure collection of participant information, ready for backend integration."
+  },
+  "expertise": [
+   "Designing user-friendly and intuitive forms for efficient and accurate data collection.",
+   "Implementing robust client-side input validation for improved data quality and enhanced user experience.",
+   "Crafting clean and semantic HTML structure for superior accessibility and long-term maintainability.",
+   "Applying responsive CSS for optimal display and usability across various devices, from desktops to mobile phones.",
+   "Utilizing graphic design tools like CorelDRAW for visual elements and branding within forms."
+  ]
+ },
+ {
+  "title": "Student Age Calculator Web App",
+  "tagline": "A simple, interactive web tool to calculate age from birthdate.",
+  "client_type": "Educational / Personal Project",
+  "category": "web-apps",
+  "overview": "This project is a straightforward web application that allows users to input their birthdate and instantly see their current age. It showcases fundamental JavaScript DOM manipulation and basic web design principles, making it an excellent learning tool.",
+  "technologies": [
+   "HTML5",
+   "CSS3",
+   "JavaScript"
+  ],
+  "features": [
+   "User-friendly input for birthdate.",
+   "Instant age calculation (years, months, days).",
+   "Responsive design for various screen sizes.",
+   "Clear error handling for invalid inputs."
+  ],
+  "slug": "student-age-calculator-web-app",
+  "thumbnail": "/images/projects/age_calculator_thumbnail.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "The need for a simple, quick, and accessible tool for students or general users to calculate age without complex software installations.",
+   "solution": "Developed a lightweight, client-side web application using pure HTML, CSS, and JavaScript. The application runs directly in the browser, providing immediate results with a clean interface, ideal for quick calculations or educational demonstrations."
+  },
+  "expertise": []
+ },
+ {
+  "title": "Comprehensive Sales Record & Analysis",
+  "tagline": "Transforming raw sales data into actionable business insights.",
+  "client_type": "Various Businesses / Data Analysis",
+  "category": "others",
+  "overview": "Provided comprehensive services for collecting, organizing, and analyzing sales records from various companies. This project focuses on extracting key trends, identifying top-performing products/services, and generating insightful reports that empower businesses to make data-driven decisions and optimize sales strategies.",
+  "technologies": [
+   "Microsoft Excel (PivotTables, Charts)",
+   "Google Sheets",
+   "SPSS (basics)",
+   "Data Cleaning Techniques",
+   "Basic SQL (for data extraction)"
+  ],
+  "features": [
+   "Automated data aggregation from multiple sales channels.",
+   "Interactive sales dashboards and performance indicators.",
+   "Customer segmentation and buying pattern analysis.",
+   "Revenue forecasting and trend identification.",
+   "Customizable reports for different stakeholders."
+  ],
+  "slug": "sales-record-analysis",
+  "thumbnail": "/images/projects/sales_analysis.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "Businesses struggled to derive meaningful insights from their raw sales data, hindering strategic decision-making and growth.",
+   "solution": "Implemented a systematic approach to sales record analysis, utilizing advanced tools to clean, organize, and visualize data. This provided clear insights into sales performance, enabling businesses to optimize strategies and identify new opportunities."
+  },
+  "expertise": [
+   "Designing robust data collection and storage methodologies for sales records.",
+   "Performing detailed data cleaning and validation to ensure accuracy.",
+   "Utilizing advanced Excel functionalities for deep sales trend analysis and forecasting.",
+   "Creating clear, impactful data visualizations and dashboards for executive reporting.",
+   "Providing actionable insights and strategic recommendations based on sales performance data."
+  ]
+ },
+ {
+  "title": "Edge Meter Stock Management System",
+  "tagline": "An efficient data entry and tracking solution for inventory.",
+  "client_type": "Client Project / Data Management",
+  "category": "others",
+  "overview": "Developed a tailored system for Edge Meter company to manage stock efficiently. This solution streamlines inventory tracking, ensuring accurate records and real-time insights into product availability and movement. It reduces manual errors and improves operational efficiency for inventory control.",
+  "technologies": [
+   "Microsoft Excel (Advanced)",
+   "Google Sheets",
+   "Data Entry Principles",
+   "CSV/JSON handling (conceptual)"
+  ],
+  "features": [
+   "Streamlined data entry forms for new stock and outgoing items.",
+   "Automated inventory level tracking and alerts for low stock.",
+   "Comprehensive reporting on stock movement, levels, and historical data.",
+   "User-friendly interface for quick lookups and updates.",
+   "Error detection and prevention mechanisms for data accuracy."
+  ],
+  "slug": "edge-meter-stock-management",
+  "thumbnail": "/images/projects/stock_thumbnail.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "Edge Meter struggled with manual, error-prone stock management leading to inefficiencies and inventory discrepancies.",
+   "solution": "Implemented a custom data management system that automates stock tracking, reduces manual input errors, and provides real-time inventory insights, significantly improving operational efficiency and accuracy."
+  },
+  "expertise": [
+   "Designing and implementing robust data entry workflows for precise inventory management.",
+   "Developing customized spreadsheets with advanced formulas and macros for automated stock tracking.",
+   "Ensuring data integrity and consistency through rigorous validation processes.",
+   "Creating intuitive interfaces for easy stock input, retrieval, and reporting.",
+   "Providing comprehensive documentation and user training for seamless system adoption."
+  ]
+ },
+ {
+  "title": "Edge Meter Bid Preparation Applications",
+  "tagline": "Streamlining the process of creating winning bids and proposals.",
+  "client_type": "Client Project / Business Operations",
+  "category": "others",
+  "overview": "Developed tools and processes for Edge Meter to efficiently prepare detailed bids and proposals. This involves structuring critical project information, cost estimations, and service outlines into compelling and professional application documents, enhancing their success rate in securing new contracts.",
+  "technologies": [
+   "Microsoft Word (Advanced)",
+   "Microsoft Excel (Formulas & Templates)",
+   "PDF Generation Tools",
+   "Data Aggregation Techniques"
+  ],
+  "features": [
+   "Customizable templates for various bid types and client requirements.",
+   "Automated calculations for pricing and resource allocation.",
+   "Version control and collaborative editing features.",
+   "Integrated checklists for compliance and completeness.",
+   "Export to professional PDF formats for submission."
+  ],
+  "slug": "edge-meter-bid-preparation",
+  "thumbnail": "/images/projects/bid_prep.jpg",
+  "screenshots": [],
+  "live": null,
+  "problem_solution": {
+   "problem": "Manual and inconsistent bid preparation processes led to delays and reduced competitiveness for Edge Meter.",
+   "solution": "Introduced a streamlined system with automated tools and standardized templates for bid preparation, significantly improving efficiency, accuracy, and the overall quality of proposals."
+  },
+  "expertise": [
+   "Designing standardized templates for consistent and professional bid submissions.",
+   "Developing automated tools within Excel for accurate cost estimation and proposal generation.",
+   "Implementing version control strategies for collaborative bid preparation.",
+   "Ensuring compliance with tender requirements and legal standards in document preparation.",
+   "Training teams on efficient use of bid preparation tools and best practices."
+  ]
+ }
+]

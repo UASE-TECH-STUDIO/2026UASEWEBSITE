@@ -1,0 +1,211 @@
+[
+ {
+  "slug": "web-mobile-backend",
+  "title": "Full-Stack Web & Mobile Development",
+  "description": "End-to-end digital solutions. We combine sleek frontend interfaces with robust backend architectures. Whether it is a RESTful API, a database-driven web app, or a native Android APK, we build for performance and security.",
+  "tools": [
+   "React.js",
+   "Next.js",
+   "Python (Django)",
+   "Node.js",
+   "PostgreSQL",
+   "Capacitor",
+   "AWS"
+  ],
+  "benefits": [
+   "Robust Backend: Secure data handling and server-side logic.",
+   "Mobile Ready: Native Android APKs from the same codebase.",
+   "Fast Performance: Optimized for speed and low latency.",
+   "Scalable: Built to handle growing user bases."
+  ],
+  "how": [
+   "Requirement gathering and system architecture design.",
+   "Backend API development and Database schema setup.",
+   "Frontend UI implementation and Mobile APK conversion.",
+   "Deployment to cloud servers and final QA testing."
+  ]
+ },
+ {
+  "slug": "top-notch-graphics",
+  "title": "High-Fidelity Graphics & Media",
+  "description": "Premium visual branding designed to make your business stand out. We specialize in tech-studio aesthetics—minimalist, modern, and high-impact designs.",
+  "tools": [
+   "Adobe Photoshop",
+   "Illustrator",
+   "CorelDRAW",
+   "Figma",
+   "Canva Pro"
+  ],
+  "benefits": [
+   "Professional Logos: Distinctive and memorable brand marks.",
+   "Marketing Assets: High-conversion flyers and social kits.",
+   "UI Assets: Custom icons and visual components.",
+   "Print Ready: High-resolution files for banners."
+  ],
+  "how": [
+   "Brand discovery and mood-board creation.",
+   "Concept sketching and digital drafting.",
+   "Iterative feedback and color theory refinement.",
+   "Final delivery of source files and export formats."
+  ]
+ },
+ {
+  "slug": "seo-content-strategy",
+  "title": "SEO & Content Drafting",
+  "description": "Visibility is currency. We draft SEO-optimized content that ranks on search engines and speaks to your audience.",
+  "tools": [
+   "Google Analytics",
+   "SEMrush",
+   "Grammarly Business",
+   "WordPress SEO"
+  ],
+  "benefits": [
+   "Higher Rankings: Targeted keywords for organic growth.",
+   "Professional Tone: Well-crafted content building authority.",
+   "Technical Writing: Clear guides and descriptions.",
+   "Engagement: Turning visitors into leads."
+  ],
+  "how": [
+   "Keyword research and competitor gap analysis.",
+   "Content drafting with a focus on SEO best practices.",
+   "On-page optimization and readability checks.",
+   "Publishing and performance tracking via Analytics."
+  ]
+ },
+ {
+  "slug": "tech-skills-siwes",
+  "title": "Tech Skills & SIWES Training",
+  "description": "Hands-on mentorship for the next generation of innovators. Project-based training and SIWES support for students.",
+  "tools": [
+   "Python",
+   "Web Dev",
+   "SPSS",
+   "Technical Reporting"
+  ],
+  "benefits": [
+   "Industry Experience: Work on live studio projects.",
+   "Logbook Support: Guidance on IT documentation.",
+   "Skill Acquisition: Master in-demand programming.",
+   "Defense Prep: Mock presentations for students."
+  ],
+  "how": [
+   "Assessment of current skill level and goal setting.",
+   "Structured curriculum with daily practical tasks.",
+   "Bi-weekly project reviews and logbook vetting.",
+   "Final project completion and defense preparation."
+  ]
+ },
+ {
+  "slug": "virtual-assistance-email",
+  "title": "Virtual Assistance & Email Marketing",
+  "description": "Offload your administrative burden. We handle professional communication and automated email campaigns.",
+  "tools": [
+   "Mailchimp",
+   "Google Workspace",
+   "Calendly",
+   "Slack"
+  ],
+  "benefits": [
+   "Automation: Set-and-forget email sequences.",
+   "Organization: Clean inbox and managed schedules.",
+   "Communication: Professional client responses.",
+   "Efficiency: Focus on your core business."
+  ],
+  "how": [
+   "Workflow audit to identify repetitive tasks.",
+   "Setup of scheduling and communication tools.",
+   "Execution of admin tasks or email campaign drafts.",
+   "Monthly reporting on efficiency and engagement."
+  ]
+ },
+ {
+  "slug": "it-support-technical",
+  "title": "IT Support & Technical Assistance",
+  "description": "Troubleshooting, system administration, and network optimization to ensure your infrastructure remains operational.",
+  "tools": [
+   "Windows/Linux",
+   "Networking",
+   "Remote Desk",
+   "Hardware Diagnostics"
+  ],
+  "benefits": [
+   "Zero Downtime: Rapid response to glitches.",
+   "System Security: Protection against malware.",
+   "Network Setup: Optimized office Wi-Fi/LAN.",
+   "Device Health: Proactive maintenance."
+  ],
+  "how": [
+   "Full infrastructure audit and vulnerability scan.",
+   "Implementation of maintenance and security protocols.",
+   "Ongoing remote support and on-site visits.",
+   "Quarterly performance and health reports."
+  ]
+ },
+ {
+  "slug": "data-analysis-research",
+  "title": "Data Analysis & Research Support",
+  "description": "Turning complex data into actionable insights. Statistical analysis and research support for businesses.",
+  "tools": [
+   "SPSS",
+   "Advanced Excel",
+   "SQL",
+   "Python (Pandas)"
+  ],
+  "benefits": [
+   "Accurate Reporting: Error-free statistical results.",
+   "Visual Insights: Clear charts and visualizations.",
+   "Research Validity: Methodologically sound analysis.",
+   "Automation: Automated Excel reporting."
+  ],
+  "how": [
+   "Data cleaning and hypothesis formulation.",
+   "Running statistical tests (SPSS/SQL/Python).",
+   "Interpretation of results and chart generation.",
+   "Delivery of a comprehensive research report."
+  ]
+ },
+ {
+  "slug": "general-contract-supplies",
+  "title": "General Contract & Technical Supplies",
+  "description": "As **Usty Alhaji Service Enterprise**, we handle general contracts and the supply of specialized technical equipment.",
+  "tools": [
+   "Hardware Procurement",
+   "Logistics",
+   "Supply Chain"
+  ],
+  "benefits": [
+   "Quality Sourcing: Genuine tech hardware.",
+   "Reliability: Timely delivery of requirements.",
+   "Technical Expertise: We know the specs.",
+   "Compliance: Registered for tenders."
+  ],
+  "how": [
+   "Quotation request and specification vetting.",
+   "Source procurement from verified vendors.",
+   "Quality control and logistics planning.",
+   "Secure delivery and installation at client site."
+  ]
+ },
+ {
+  "slug": "academic-support-writing",
+  "title": "Academic Support & SIWES Logs",
+  "description": "Specialized support for IT students. We assist with technical writing and project defense preparation.",
+  "tools": [
+   "Technical Writing",
+   "Logbook Documentation",
+   "Presentation"
+  ],
+  "benefits": [
+   "Grade Improvement: High-quality output.",
+   "Clarity: Simple explanations of tech concepts.",
+   "Structure: Professionally formatted reports.",
+   "Confidence: Ready for external supervisors."
+  ],
+  "how": [
+   "Review of project topics and logbook guidelines.",
+   "Drafting technical chapters and documentation.",
+   "Reviewing for plagiarism and technical accuracy.",
+   "Final polishing and presentation coaching."
+  ]
+ }
+]
