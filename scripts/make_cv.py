@@ -39,14 +39,14 @@ for t, xs in [("CORE STACK", ["Next.js · React · TypeScript", "FastAPI · Pyth
               ("EDUCATION", ["BSc Computer Science", "Ahmadu Bello University, Zaria", "Full-Stack Software Development", "Brotech Institute (certified)", "Diploma in Computing", "Heritage Computers, Zaria", "EF SET English C1 (68/100)"])]:
     st += [Paragraph(t, side_h)] + [Paragraph(x, side) for x in xs]
 st.append(FrameBreak())
-st += [Paragraph("PROFILE", h), Paragraph("Full-stack engineer with a 10-year IT background and full-stack development since 2020. I build web apps and cross-platform <b>iOS and Android</b> apps on Next.js, TypeScript, FastAPI and MongoDB Atlas, and take products from planning and architecture to the App Store, Google Play and production. Founder of UASE Tech Studio, delivering systems across healthcare, judiciary, automotive and logistics.", body)]
+st += [Paragraph("PROFILE", h), Paragraph("Full-stack engineer with a 10-year IT background and full-stack development since 2020. I build web apps and cross-platform <b>iOS and Android</b> apps on Next.js, TypeScript, FastAPI and MongoDB Atlas, and take products from planning and architecture to the App Store, Google Play and production. Founder of UASE Tech Studio Ltd (CAC-registered, RC 9594186), delivering systems across healthcare, judiciary, automotive and logistics.", body)]
 st += [Paragraph("FLAGSHIP PROJECT", h), Paragraph("CARSTRIMS — Vehicle Marketplace (Web · iOS · Android)", job),
        Paragraph("Live on the web, the App Store and Google Play · " + link("https://www.carstrims.com", "carstrims.com").replace("#e0b34a", "#12182b"), meta)]
 st += bullets(["Planned, architected, designed, built, tested and launched the whole product end to end for a client.",
   "Multi-role platform (5 user roles): inventory, sales tracking, financial reports, appointments, QR codes.",
   "One Next.js codebase shipped as native iOS and Android apps with Capacitor, including store submission.",
   "Real-time messaging and push notifications (FCM V1); FastAPI + MongoDB Atlas backend on Render, frontend on Vercel."])
-st += [Paragraph("EXPERIENCE", h), Paragraph("Founder &amp; Lead Engineer — UASE Tech Studio", job), Paragraph("2020 – Present · Abuja, Nigeria · Remote / Hybrid", meta)]
+st += [Paragraph("EXPERIENCE", h), Paragraph("Founder &amp; Lead Engineer — UASE Tech Studio Ltd (RC 9594186)", job), Paragraph("2020 – Present · Abuja, Nigeria · Remote / Hybrid", meta)]
 st += bullets(["Architected and delivered 12+ production systems for healthcare, judiciary, automotive and logistics clients.",
   "Engineered BloodLink, a healthcare platform with automated email workflows, real-time donor matching and admin coordination.",
   "Implemented a Facade-pattern service layer for scalable email and API management.",

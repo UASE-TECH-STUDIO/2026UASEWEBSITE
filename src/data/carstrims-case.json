@@ -1,0 +1,25 @@
+{
+  "problems": [
+    "Cars belong to many private owners, so there is no single source of truth for who owns what.",
+    "Records live in notebooks, WhatsApp chats and memory, which leads to lost records and disputes.",
+    "Nobody tracks when a car leaves the stand, which means missing vehicles and theft risk.",
+    "There are no formal agreements with owners, so price and commission disputes follow.",
+    "Dealers have no clear view of what is selling, what is stuck and what money is coming in."
+  ],
+  "solutions": [
+    ["One digital record per car", "Photos (at least one is required), VIN, price and a clear status: available, out, reserved, sold or returned."],
+    ["Movement tracking", "Every check-out and check-in is logged with the purpose, the person responsible and the expected return."],
+    ["Sales, expenses and reports", "Income statements, profit per vehicle and monthly breakdowns, exported as PDF, JPG or Excel."],
+    ["Staff and partner access", "Staff work inside a dealer's account with limited permissions. Investors and partners see their earnings, never the dealer's costs."],
+    ["A public marketplace", "Buyers search by keyword, dealer, company or dealer ID (with voice search), save favourites and book appointments."],
+    ["Receipts, invoices and WhatsApp", "Receipts, invoices and proformas in one tap, shared straight to WhatsApp with phone numbers formatted automatically."],
+    ["Web, Android and iOS from one codebase", "Next.js and Capacitor power the apps, FastAPI powers the backend, and push notifications keep everyone informed."]
+  ],
+  "accounts": [
+    ["Dealer", "Runs inventory, staff, sales, finances, appointments and a public profile."],
+    ["Staff", "Handles day-to-day inventory and sales within the limits the dealer sets."],
+    ["Partner", "Tracks assigned vehicles and earnings through a revenue-share view."],
+    ["Buyer", "Browses the marketplace, saves favourites, books appointments and contacts dealers."],
+    ["Super Admin", "Approves dealers, moderates the feed and watches platform-wide analytics."]
+  ]
+}

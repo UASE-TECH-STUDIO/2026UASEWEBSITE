@@ -10,7 +10,7 @@ const skills: [string, string[]][] = [
   ["Languages", ["English (C1 Advanced)", "Hausa (native)"]],
 ];
 const jobs = [
-  { role: "Founder & Lead Engineer — UASE Tech Studio", when: "2020 – Present", where: "Remote / Hybrid, Nigeria", pts: [
+  { role: "Founder & Lead Engineer — UASE Tech Studio Ltd (RC 9594186)", when: "2020 – Present", where: "Remote / Hybrid, Nigeria", pts: [
     "Architected and delivered 12+ production systems for healthcare, judiciary, automotive and logistics clients.",
     "Built CARSTRIMS end to end: a multi-role vehicle marketplace on Next.js, FastAPI and MongoDB Atlas, live on the web, the App Store and Google Play.",
     "Shipped native iOS and Android apps from one Next.js codebase with Capacitor, including push notifications (FCM V1), real-time messaging and store submission.",

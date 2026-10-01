@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
 import Tracker from "@/components/Tracker";
+import SwipeBack from "@/components/SwipeBack";
+import WhatsAppFab from "@/components/WhatsAppFab";
 
 export const metadata: Metadata = {
   title: "USTY — Full-Stack Web & Mobile App Developer | UASE Tech Studio",
@@ -17,13 +19,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=DM+Mono:wght@400;500&display=swap" />
       </head>
       <body>
-        <Tracker />
+        <Tracker /><SwipeBack /><WhatsAppFab />
         <header><div className="w">
-          <Link href="/" className="logo">USTY<span>.</span> <span className="mono" style={{fontSize:12,color:"var(--mute)",fontWeight:400}}>UASE Tech Studio</span></Link>
-          <nav><Link href="/projects">Projects</Link><Link href="/services">Services</Link><Link href="/blog">Blog</Link><Link href="/resume">Resume</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></nav>
+          <Link href="/" className="logo">USTY<span>.</span> <span className="mono" style={{fontSize:12,color:"var(--mute)",fontWeight:400}}>UASE Tech Studio Ltd</span></Link>
+          <nav><Link href="/projects">Projects</Link><Link href="/services">Services</Link><Link href="/training">Training</Link><Link href="/blog">Blog</Link><Link href="/resume">Resume</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></nav>
         </div></header>
         <main>{children}</main>
-        <footer><div className="w">© {new Date().getFullYear()} UASE Tech Studio Ltd · Kpaduma 1, Asokoro Extension, Abuja, Nigeria · uasetechstudio@gmail.com · <Link href="/resources">Resources</Link> · <Link href="/nigeria">Nigeria</Link> · <Link href="/graphics">Graphics</Link></div></footer>
+        <footer><div className="w">© {new Date().getFullYear()} UASE Tech Studio Ltd · RC 9594186 · Registered with the Corporate Affairs Commission, Nigeria · Kpaduma 1, Asokoro Extension, Abuja · uasetechstudio@gmail.com · <Link href="/resources">Resources</Link> · <Link href="/nigeria">Nigeria</Link> · <Link href="/graphics">Graphics</Link></div></footer>
       </body>
     </html>
   );

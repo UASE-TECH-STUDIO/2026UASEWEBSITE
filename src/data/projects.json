@@ -1,10 +1,10 @@
 [
  {
   "title": "CARSTRIMS — Vehicle Marketplace & Dealer Platform (Web + iOS + Android)",
-  "tagline": "A full-scale SaaS platform connecting car dealers, partners, staff, and buyers across Nigeria.",
+  "tagline": "A multi-role vehicle marketplace and dealer-management platform on web, iOS and Android, from a dealer's everyday problem to a live product.",
   "client_type": "SaaS / Automotive / Nigerian Market",
   "category": "web-apps",
-  "overview": "CARSTRIMS is a production-grade, multi-tenant car dealer management SaaS platform built for the Nigerian automotive market. The platform brings together five distinct user roles — Super Admin, Dealer Admin, Dealer Staff, Partner/Asset Owner, and Public Buyer — into a single cohesive system with role-based dashboards and granular permissions.\n\nDealer Admins manage full inventory (up to 10 photos + video per car), track sales with profit/loss reporting, manage expenses, onboard staff with permission control, handle partner relationships, respond to buyer requests, confirm appointments, log vehicle movements, export financial PDF reports, and generate QR codes per dealership.\n\nPublic users browse a live car feed with advanced filtering (brand, price, condition, transmission, fuel, state, year, color), like and save cars, place special requests, book appointments, and communicate via a full messaging system. Push notifications with sound and a service worker keep all users updated in real time. The platform is deployed on Vercel (frontend) and Render/Railway (backend API), with Cloudinary handling media storage and MongoDB Atlas as the primary database.",
+  "overview": "CARSTRIMS serves the Nigerian used-car market. We planned, architected, designed, built and launched the whole platform: five account types, a public marketplace, inventory and sales tools, financial reporting, WhatsApp-first sharing, push notifications and native Android and iOS apps, all from one shared codebase (Next.js, Capacitor and FastAPI).",
   "technologies": [
    "Next.js",
    "TypeScript",
@@ -52,10 +52,7 @@
    "/images/carstrims7.jpg"
   ],
   "live": "https://www.carstrims.com",
-  "problem_solution": {
-   "problem": "Nigerian car dealerships lacked a unified digital platform for inventory, sales tracking, partner management, and customer engagement. Existing tools were not tailored for the multi-dealer, multi-role complexity of the local automotive market.",
-   "solution": "CARSTRIMS was built from the ground up as a full SaaS solution — a single platform that handles the entire lifecycle of a car dealership: from inventory listing and partner asset tracking, to buyer discovery, appointment booking, and financial reporting."
-  },
+  "problem_solution": null,
   "expertise": [
    "Architecting a production multi-tenant SaaS with 5 distinct role-based dashboards and permission systems.",
    "Building a FastAPI async backend with Motor for high-performance MongoDB operations.",
