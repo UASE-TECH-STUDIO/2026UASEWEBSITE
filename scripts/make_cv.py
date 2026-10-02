@@ -1,7 +1,7 @@
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, NextPageTemplate, FrameBreak, KeepTogether
+from reportlab.platypus import Image, BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, NextPageTemplate, FrameBreak, KeepTogether
 W, H = A4; SW = 190; M = 30
 NAVY, GOLD, INK, MUTE = HexColor("#12182b"), HexColor("#e0b34a"), HexColor("#1b2238"), HexColor("#5b6478")
 def S(n, **k): return ParagraphStyle(n, fontName=k.pop("f", "Helvetica"), **k)
@@ -26,7 +26,7 @@ fm = Frame(SW + 26, 30, W - SW - 26 - 30, H - 60, id="m", leftPadding=0, rightPa
 ff = Frame(36, 30, W - 72, H - 60, id="f")
 doc.addPageTemplates([PageTemplate("first", [fs, fm], onPage=side_page), PageTemplate("later", [ff], onPage=plain)])
 st = []
-st += [Spacer(1, 6), Paragraph("Muhammedmustapha<br/>Abdullahi", name), Paragraph("Full-Stack Web &amp; Mobile Developer<br/>(USTY)", role)]
+st += [Spacer(1, 6), Image("public/logo-mark.png", width=38, height=41, hAlign="LEFT"), Spacer(1, 6), Paragraph("Muhammedmustapha<br/>Abdullahi", name), Paragraph("Full-Stack Web &amp; Mobile Developer<br/>(USTY)", role)]
 st += [Paragraph("CONTACT", side_h), Paragraph("Abuja, Nigeria · Remote-ready", side),
        Paragraph(link("mailto:uasetechstudio@gmail.com", "uasetechstudio@gmail.com"), side),
        Paragraph(link("https://wa.me/2349133549399", "WhatsApp: +234 913 354 9399"), side),

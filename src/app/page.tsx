@@ -25,9 +25,9 @@ export default function Home() {
       <div className="hero">
         <span className="tag mono">UASE Tech Studio Ltd · Open to jobs, contracts &amp; new projects</span>
         <h1>Your idea, problem or vision, turned into <em>software that works.</em></h1>
-        <p className="lead">UASE Tech Studio Ltd designs, builds and launches websites, web apps and iOS &amp; Android apps, and trains the next generation of developers. I&apos;m USTY, the founder and lead engineer. I plan, design, build, launch and support what we ship.</p>
+        <p className="lead">UASE Tech Studio Ltd is a global, remote-first company that designs, builds and launches websites, web apps and iOS &amp; Android apps for clients worldwide, and trains developers and office teams. I&apos;m USTY, the founder and lead engineer. I plan, design, build, launch and support what we ship.</p>
         <div className="btns"><Link className="btn p" href="/contact">Start a project</Link><Link className="btn" href="/projects">View projects</Link><a className="btn wa" href={waLink(WA.ng)} target="_blank" rel="noopener">WhatsApp me</a></div>
-        <p className="rc" style={{ marginTop: 16 }}>UASE Tech Studio Ltd · Registered with the Corporate Affairs Commission, Nigeria (RC 9594186) · Abuja</p>
+        <p className="rc" style={{ marginTop: 16 }}>UASE Tech Studio Ltd · Registered with the Corporate Affairs Commission, Nigeria (RC 9594186) · Asokoro, Abuja · Working with clients worldwide</p>
       </div>
 
       <section>
@@ -56,6 +56,10 @@ export default function Home() {
           <div className="btns"><Link className="btn p" href="/contact">Tell us your idea</Link><a className="btn wa" href={waLink(WA.ng, "Hi, I have an idea/problem I'd like to turn into software.")} target="_blank" rel="noopener">Chat on WhatsApp</a></div></div>
       </section>
 
+      <section><div className="band"><h2>A global company, working remotely</h2>
+        <p className="lead" style={{ fontSize: 16 }}>We are not limited by location. We work remotely with clients around the world, especially in the United States. We accept payments in US dollars, and we have a US phone number and address, with our home base in Asokoro, Abuja.</p>
+        <div className="btns"><a className="btn wa" href={waLink(WA.us, "Hi, I'm in the US and would like to discuss a project.")} target="_blank" rel="noopener">WhatsApp (USA)</a><a className="btn wa" href={waLink(WA.ng)} target="_blank" rel="noopener">WhatsApp (Nigeria)</a></div></div></section>
+
       <Process />
 
       <section>
@@ -68,7 +72,7 @@ export default function Home() {
 
       <section>
         <h2>We also train</h2><p className="sub">Learn to build real software with someone who ships it every day.</p>
-        <div className="two"><div className="card"><p>Hands-on training in web development, backend APIs, mobile apps, design and IT skills, plus SIWES and final-year project mentoring. Over 150 students have trained and been mentored with us.</p>
+        <div className="two"><div className="card"><p>Hands-on training for developers and for people at work: web and mobile development, MS Office, CorelDRAW, typing, Google tools, Zoom, AI tools and everyday office technology, plus SIWES and final-year project mentoring. Over 150 students have trained and been mentored with us.</p>
           {train && <ul className="list">{train.benefits.slice(0, 3).map((b) => <li key={b}>{b}</li>)}</ul>}
           <div className="btns"><Link className="btn p" href="/training">See training programs</Link></div></div>
           <div className="card"><h3>What you walk away with</h3><ul className="list"><li>Real projects for your portfolio</li><li>The same tools we use on client work</li><li>Guidance from a working engineer</li></ul></div></div>
