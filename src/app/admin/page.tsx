@@ -30,9 +30,9 @@ export default function Admin() {
   );
   return (
     <div className="w adm"><div className="hero" style={{ paddingBottom: 12 }}><h1 style={{ fontSize: 34 }}>Admin</h1>
-      <div className="chips">{["analytics", "posts", "resources", "comments"].map((t) => <button key={t} className={"chip btnchip" + (tab === t ? " g" : "")} onClick={() => setTab(t)}>{t}</button>)}
+      <div className="chips">{["analytics", "messages", "posts", "resources", "comments"].map((t) => <button key={t} className={"chip btnchip" + (tab === t ? " g" : "")} onClick={() => setTab(t)}>{t}</button>)}
         <button className="chip btnchip" onClick={out}>log out</button></div></div>
-      {tab === "analytics" && <Analytics api={api} />}{tab === "posts" && <Posts api={api} />}
+      {tab === "analytics" && <Analytics api={api} />}{tab === "messages" && <Messages api={api} />}{tab === "posts" && <Posts api={api} />}
       {tab === "resources" && <Resources api={api} />}{tab === "comments" && <Comments api={api} />}</div>
   );
 }
@@ -124,5 +124,19 @@ function Comments({ api }: { api: Api }) {
     <div>{list.length === 0 && <p className="sub">No comments yet.</p>}{list.map((c) => (
       <div key={c.id} className="card cmt" style={{ marginBottom: 12 }}><b>{c.name}</b> <span className="mono">{c.slug} · {new Date(c.created).toLocaleString()}</span><p>{c.message}</p>
         <button className="btn" onClick={async () => { await api(`/api/admin/comments/${c.id}`, { method: "DELETE" }); load(); }}>Delete</button></div>))}</div>
+  );
+}
+
+function Messages({ api }: { api: Api }) {
+  const [list, setList] = useState<any[]>([]), [err, setErr] = useState("");
+  const load = useCallback(() => api("/api/admin/messages").then(setList).catch((e) => setErr(e.message)), [api]);
+  useEffect(() => { load(); }, [load]);
+  return (
+    <div>{err && <p className="bad">{err}</p>}{!err && list.length === 0 && <p className="sub">No messages yet. Contact-form messages are saved here.</p>}
+      {list.map((m) => (
+        <div key={m.id} className="card cmt" style={{ marginBottom: 12 }}><b>{m.name}</b> · <a href={`mailto:${m.email}`}>{m.email}</a> <span className="mono">{m.created ? new Date(m.created).toLocaleString() : ""}</span>
+          <p style={{ whiteSpace: "pre-wrap" }}>{m.message}</p>
+          <div className="btns" style={{ marginTop: 6 }}><a className="btn" href={`mailto:${m.email}?subject=Re: your message to UASE Tech Studio`}>Reply by email</a>
+            <button className="btn" onClick={async () => { if (confirm("Delete this message?")) { await api(`/api/admin/messages/${m.id}`, { method: "DELETE" }); load(); } }}>Delete</button></div></div>))}</div>
   );
 }

@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Tracker /><SwipeBack /><WhatsAppFab />
         <Nav />
         <main>{children}</main>
-        <footer><div className="w foot"><img src="/logo-mark.png" alt="" width={28} height={28} /><div>© {new Date().getFullYear()} UASE Tech Studio Ltd · RC 9594186 · Registered with the Corporate Affairs Commission, Nigeria<br />Asokoro, Abuja, Nigeria · Serving clients worldwide, remotely · uasetechstudio@gmail.com<br /><Link href="/resources">Resources</Link> · <Link href="/nigeria">Nigeria</Link> · <Link href="/graphics">Graphics</Link></div></div></footer>
+        <footer><div className="w foot"><img src="/logo-mark.png" alt="" width={28} height={28} /><div>© {new Date().getFullYear()} UASE Tech Studio Ltd · RC 9594186 · Registered with the Corporate Affairs Commission, Nigeria<br />Asokoro, Abuja, Nigeria · Serving clients worldwide, remotely · uasetechstudio@gmail.com<br />UASE™ is a trademark of UASE Tech Studio Ltd.<br /><Link href="/resources">Resources</Link> · <Link href="/nigeria">Nigeria</Link> · <Link href="/graphics">Graphics</Link></div></div></footer>
       </body>
     </html>
   );
