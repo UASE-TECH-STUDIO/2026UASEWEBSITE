@@ -3,30 +3,41 @@ import { useCallback, useEffect, useState } from "react";
 import { API } from "@/lib/data";
 
 type Api = (p: string, o?: RequestInit) => Promise<any>;
+const toProxy = (p: string) => "/api/backend/" + p.replace(/^\/api\//, "");
+const friendly = (m: string) => (/failed to fetch|networkerror|load failed/i.test(m) ? "Can't reach the server. If it was idle, wait a minute and try again." : m);
 const cn = (c: string) => { if (c.length !== 2) return c; try { return new Intl.DisplayNames(["en"], { type: "region" }).of(c) || c; } catch { return c; } };
 
 export default function Admin() {
   const [tok, setTok] = useState(""), [pw, setPw] = useState(""), [err, setErr] = useState(""), [tab, setTab] = useState("analytics");
+  const [show, setShow] = useState(false), [status, setStatus] = useState(""), [busy, setBusy] = useState(false);
+  useEffect(() => { if (tok) return; setStatus("Checking server…"); fetch("/api/backend/health").then(async (r) => { const d = await r.json().catch(() => ({})); setStatus(r.ok ? "Server online" : d.detail || "Server not reachable"); }).catch(() => setStatus("Server not reachable")); }, [tok]);
   useEffect(() => { const t = sessionStorage.getItem("uase_tok"); if (t) setTok(t); }, []);
   const out = () => { sessionStorage.removeItem("uase_tok"); setTok(""); };
   const api: Api = useCallback(async (p, o = {}) => {
-    const r = await fetch(API + p, { ...o, headers: { ...(o.body instanceof FormData ? {} : { "Content-Type": "application/json" }), Authorization: "Bearer " + tok } });
+    const big = o.body instanceof FormData && [...o.body.values()].some((v) => typeof v !== "string" && v.size > 4 * 1024 * 1024); // big uploads go direct (proxy limit is ~4.5MB)
+    let r: Response;
+    try { r = await fetch(big ? API + p : toProxy(p), { ...o, headers: { ...(o.body instanceof FormData ? {} : { "Content-Type": "application/json" }), Authorization: "Bearer " + tok } }); }
+    catch (e: any) { throw new Error(friendly(e.message || "")); }
     const d = await r.json().catch(() => ({}));
     if (!r.ok) { if (r.status === 401) out(); throw new Error(typeof d.detail === "string" ? d.detail : r.statusText); }
     return d;
   }, [tok]);
   async function login(e: React.FormEvent) {
-    e.preventDefault(); setErr("");
+    e.preventDefault(); setErr(""); setBusy(true);
     try {
-      const r = await fetch(API + "/api/admin/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: pw }) });
-      const d = await r.json(); if (!r.ok) throw new Error(d.detail || "Login failed");
+      const r = await fetch(toProxy("/api/admin/login"), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: pw.trim() }) });
+      const d = await r.json().catch(() => ({})); if (!r.ok) throw new Error(typeof d.detail === "string" ? d.detail : "Login failed");
       sessionStorage.setItem("uase_tok", d.token); localStorage.setItem("uase_admin", "1"); setTok(d.token); setPw("");
-    } catch (x: any) { setErr(x.message); }
+    } catch (x: any) { setErr(friendly(x.message || "Login failed")); }
+    setBusy(false);
   }
   if (!tok) return (
     <div className="w"><div className="hero"><h1 style={{ fontSize: 36 }}>Admin</h1>
-      <form onSubmit={login} className="card form"><input type="password" placeholder="Admin password" value={pw} onChange={(e) => setPw(e.target.value)} required />
-        <button className="btn p">Log in</button>{err && <p className="bad">{err}</p>}</form></div></div>
+      <form onSubmit={login} className="card form">
+        <div className="pwrow"><input type={show ? "text" : "password"} placeholder="Admin password" value={pw} onChange={(e) => setPw(e.target.value)} autoComplete="current-password" autoCapitalize="none" autoCorrect="off" spellCheck={false} required />
+          <button type="button" className="micbtn" onClick={() => setShow(!show)} aria-label={show ? "Hide password" : "Show password"}>{show ? "Hide" : "Show"}</button></div>
+        <button className="btn p" disabled={busy}>{busy ? "Logging in…" : "Log in"}</button>{err && <p className="bad">{err}</p>}
+        <p className="rc">{status}</p></form></div></div>
   );
   return (
     <div className="w adm"><div className="hero" style={{ paddingBottom: 12 }}><h1 style={{ fontSize: 34 }}>Admin</h1>

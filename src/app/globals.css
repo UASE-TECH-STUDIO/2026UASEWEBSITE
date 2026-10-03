@@ -113,3 +113,4 @@ nav a.act{color:var(--ink);background:var(--card)}
 .lb{height:100dvh}
 .foot{display:flex;gap:14px;align-items:flex-start}.foot img{flex:none;margin-top:2px}
 .fab{width:54px;height:54px;right:max(14px,env(safe-area-inset-right))}
+.pwrow{display:flex;gap:8px}.pwrow input{flex:1;min-width:0}.pwrow .micbtn{min-width:64px}
