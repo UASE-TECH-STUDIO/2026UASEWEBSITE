@@ -19,7 +19,7 @@ export default async function Project({ params }: { params: Promise<{ slug: stri
   const { slug } = await params;
   const p = projects.find((x) => x.slug === slug);
   if (!p) notFound();
-  const shots = p.slug === CARSTRIMS.slug ? [...extraShots(), ...p.screenshots] : p.screenshots;
+  const shots = [...(p.slug === CARSTRIMS.slug ? extraShots() : extraShots(`projects/${p.slug}`)), ...p.screenshots];
   return (
     <div className="w">
       <div className="hero" style={{paddingBottom:24}}>

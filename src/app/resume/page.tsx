@@ -10,20 +10,25 @@ const skills: [string, string[]][] = [
   ["Languages", ["English (C1 Advanced)", "Hausa (native)"]],
 ];
 const jobs = [
-  { role: "Founder & Lead Engineer — UASE Tech Studio Ltd (RC 9594186)", when: "2020 – Present", where: "Remote / Hybrid, Nigeria", pts: [
-    "Architected and delivered 12+ production systems for healthcare, judiciary, automotive and logistics clients.",
-    "Built CARSTRIMS end to end: a multi-role vehicle marketplace on Next.js, FastAPI and MongoDB Atlas, live on the web, the App Store and Google Play.",
-    "Shipped native iOS and Android apps from one Next.js codebase with Capacitor, including push notifications (FCM V1), real-time messaging and store submission.",
-    "Engineered BloodLink, a healthcare platform with automated email workflows, real-time donor matching and admin coordination.",
-    "Implemented a Facade-pattern service layer for scalable email and API management across production systems.",
+  { role: "Founder & Lead Software Engineer — UASE Tech Studio Ltd (RC 9594186)", when: "Jun 2026 – Present", where: "Abuja, Nigeria · Remote worldwide", pts: [
+    "Registered UASE Tech Studio Ltd as a stand-alone software company, separate from the enterprise's other businesses, to take on complete software projects for clients worldwide.",
+    "Led CARSTRIMS from the client's problem to launch: planning, architecture, design, build, testing and release of a multi-role marketplace (dealer, staff, partner, buyer, super admin) on Next.js, FastAPI and MongoDB Atlas, live on the web, the App Store and Google Play.",
+    "Shipped native iOS and Android apps from one Next.js codebase with Capacitor, including push notifications (FCM V1), real-time messaging, store submission and device-specific fixes.",
+    "Rebuilt the company site, uase.tech, in the same stack: blog, admin dashboard, visitor analytics, contact system and a responsive, mobile-first interface.",
+    "Run training for developers and office teams; bill international clients in US dollars." ] },
+  { role: "Founder & Lead Developer — USTY Alhaji Service Enterprise", when: "2024 – 2026", where: "CAC-registered business trading under the UASE brand · Abuja", pts: [
+    "Moved from working as an individual developer to running a registered business, delivering complete software systems for clients instead of isolated components.",
+    "Delivered systems for healthcare, judiciary, automotive and logistics clients, including BloodLink and a Court Order Management System.",
+    "Implemented a Facade-pattern service layer for scalable email and API management.",
     "Mentored 150+ students on SIWES and final-year software projects across Nigerian universities." ] },
+  { role: "Independent Full-Stack Developer", when: "2020 – 2024", where: "Nigeria · Remote", pts: [
+    "Started coding in 2020 and progressed from small learning projects to full client systems.",
+    "Built with Django, PostgreSQL, MySQL, PHP, JavaScript and Bootstrap before moving to the Next.js and FastAPI stack." ] },
   { role: "Technical IT Assistant — Edge Meter / T4U / Sunstar", when: "2021 – 2023", where: "Contract consulting", pts: [
-    "Consulted on technical documentation and system audits for AY Global Integrated Services.",
-    "Designed secure data-handling procedures for institutional engineering audits.",
+    "Technical documentation and system audits for AY Global Integrated Services; secure data-handling procedures for institutional engineering audits.",
     "Delivered Solar/Starlink integration projects to close connectivity gaps." ] },
   { role: "IT Instructor — Heritage Computers / Ligo Computers", when: "2016 – 2020", where: "Zaria, Nigeria", pts: [
-    "Trained 150+ students in MS Office, CorelDRAW and UI/UX design fundamentals.",
-    "Developed and delivered structured curriculum for computing diploma programmes." ] },
+    "Trained 150+ students in MS Office, CorelDRAW and UI/UX fundamentals; developed and delivered structured diploma curriculum." ] },
 ];
 const featured = [
   ["CARSTRIMS — Vehicle Marketplace (Web + iOS + Android)", "carstrims-car-dealer-platform", "Multi-role marketplace and dealer platform with 5 user roles, inventory, sales, financial reports, real-time messaging and push notifications.", ["Next.js", "FastAPI", "MongoDB Atlas", "Capacitor"]],
@@ -52,7 +57,7 @@ export default function Resume() {
         </aside>
         <div>
           <h2>Professional summary</h2>
-          <p className="lead" style={{fontSize:16}}>Full-stack engineer with a 10-year IT background and full-stack development since 2020. I build web apps and cross-platform iOS and Android apps on Next.js, TypeScript, FastAPI and MongoDB Atlas, and take them from planning and architecture to the App Store, Google Play and production. Founder of UASE Tech Studio, delivering systems across healthcare, judiciary, automotive and logistics. My IT administration and teaching background helps me build software that is operationally efficient and commercially viable.</p>
+          <p className="lead" style={{fontSize:16}}>Full-stack developer since 2020 and founder of a software company: trading under the UASE brand since 2024 and incorporated as UASE Tech Studio Ltd in 2026. I take whole products from a client&apos;s problem to the App Store, Google Play and production, covering planning, architecture, design, build, testing, launch and ongoing upgrades. Core stack: Next.js, TypeScript, FastAPI, MongoDB Atlas and Capacitor (iOS + Android). Hire me as a developer, or engage UASE Tech Studio Ltd as your software team.</p>
           <h2 style={{marginTop:32}}>Experience</h2>
           {jobs.map((j) => <div key={j.role} className="job card"><h3>{j.role}</h3><p className="meta">{j.when} · {j.where}</p><ul className="list">{j.pts.map((p) => <li key={p}>{p}</li>)}</ul></div>)}
           <h2 style={{marginTop:32}}>Featured projects</h2>

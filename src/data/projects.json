@@ -139,6 +139,57 @@
   ]
  },
  {
+  "title": "UASE Tech Studio: Our Own Website, Blog & Admin (Next.js)",
+  "tagline": "Our company website, rebuilt in our flagship stack: a fast, mobile-first showcase with a blog, training pages, a contact system and a private admin and analytics dashboard.",
+  "client_type": "In-house project / company showcase",
+  "category": "web-apps",
+  "overview": "This website is itself one of our projects. Version 1 was built with Django and Bootstrap. In 2026 we rebuilt it in the same stack we use for our flagship apps (Next.js, FastAPI and MongoDB) so it shows what we can deliver today. It presents our portfolio, services, training, resume and blog, and it comes with a private admin area so we can publish posts, upload resources and read messages without touching code. It works on phones, tablets and laptops alike.",
+  "technologies": [
+   "Next.js",
+   "React",
+   "TypeScript",
+   "FastAPI",
+   "Python",
+   "MongoDB Atlas",
+   "Cloudinary",
+   "JWT auth",
+   "Resend",
+   "Vercel",
+   "Render",
+   "Django (version 1)"
+  ],
+  "features": [
+   "Portfolio of 22+ projects with category filters, keyword search and voice search.",
+   "Full-screen image viewer with pinch and double-tap zoom, drag, swipe and keyboard controls.",
+   "Case studies with live links to the web app, App Store and Google Play.",
+   "Blog with Markdown posts, likes, and anonymous (\"ghost\") or named comments.",
+   "Resources area where visitors download files, with download counts.",
+   "Private admin dashboard to write posts, upload images and files, moderate comments and read contact messages.",
+   "Visitor analytics: visitors, countries and cities, referrers and busiest hours, using hashed IP addresses for privacy.",
+   "Contact form that saves every message and emails it, with a floating WhatsApp button and WhatsApp links throughout.",
+   "Training, services, Nigeria IT consultancy and resume pages, plus a downloadable PDF CV.",
+   "Mobile menu, iPhone-style edge-swipe navigation, light and dark themes and safe-area handling for modern phones.",
+   "SEO sitemap and robots file, with hosting on Vercel and Render."
+  ],
+  "slug": "uase-tech-studio-website",
+  "thumbnail": "/images/projects/uase_website_card.png",
+  "screenshots": [
+   "/images/uase_website_screenshot_1.jpg"
+  ],
+  "live": "https://uase.tech",
+  "problem_solution": {
+   "problem": "We needed a company website that proves what we build, can be updated without a developer, loads fast on any phone and screen, and turns visitors into conversations.",
+   "solution": "We rebuilt it on Next.js with a FastAPI backend. It has an admin dashboard, a blog with comments and likes, visitor analytics, a contact system that never loses a message, WhatsApp shortcuts, and the same touch gestures we ship in our apps."
+  },
+  "expertise": [
+   "Full-stack architecture: Next.js frontend, FastAPI backend and MongoDB, hosted on Vercel and Render.",
+   "Responsive design for phones, tablets and laptops.",
+   "Admin dashboards, authentication and analytics.",
+   "Content workflows that let non-developers publish.",
+   "Performance, SEO and accessibility basics."
+  ]
+ },
+ {
   "title": "High-Velocity Engineering: Async Jira Task Engine & TDD Suite",
   "tagline": "A high-performance backend core built with Python 3.12+, FastAPI, and Pydantic V2.",
   "client_type": "Internal Tooling / Enterprise Backend",
@@ -652,54 +703,6 @@
    "Creating an alerts and notifications system for critical crime updates.",
    "Ensuring mobile-first responsive design using the Bootstrap framework for optimal accessibility across devices.",
    "Implementing robust security features including session handling and input validation against common vulnerabilities in PHP applications."
-  ]
- },
- {
-  "title": "UASE Tech Studio: Official Website & Portfolio (This Platform)",
-  "tagline": "Building a robust digital presence for UASE Tech Studio itself.",
-  "client_type": "Internal Project / Brand Showcase",
-  "category": "web-apps",
-  "overview": "This is the official online platform for UASE Tech Studio, meticulously designed and developed to serve as a comprehensive portfolio and information hub. Built with Django, this full-stack website showcases our diverse technical capabilities, featuring detailed project pages, service descriptions, and testimonials. It embodies modern UI/UX principles, ensuring responsiveness across all devices, and integrates robust backend functionalities like secure contact forms with reCAPTCHA, dynamic content management via Django Admin, and user authentication. This platform is a testament to our commitment to delivering high-quality, scalable, and secure digital solutions.",
-  "technologies": [
-   "Django",
-   "Python",
-   "HTML5",
-   "CSS3",
-   "JavaScript",
-   "Bootstrap 5",
-   "SQLite (development)",
-   "PostgreSQL (production ready)",
-   "Django Admin",
-   "Static File Management",
-   "Responsive Design",
-   "MS Office Suite (for content planning/documentation)",
-   "CorelDRAW (for logo/branding elements)"
-  ],
-  "features": [
-   "Modern, responsive, and innovative UI/UX design adaptable to all devices.",
-   "Dynamic content management for services, projects, and testimonials via an intuitive Django Admin interface.",
-   "Interactive portfolio showcasing detailed project pages with direct live demo links and detailed case studies.",
-   "Comprehensive \"About Us\" and \"Services\" sections providing in-depth information about UASE Tech Studio's offerings and expertise.",
-   "Secure and functional contact form with reCAPTCHA for spam protection and automated email notifications to ensure reliable communication.",
-   "User authentication system (login/logout/register) for future features, suchs as premium resources or client dashboards.",
-   "Optimized for fast loading speeds and a smooth user experience across the site."
-  ],
-  "slug": "uase-tech-studio-website",
-  "thumbnail": "/images/projects/uase_website_thumbnail.jpg",
-  "screenshots": [
-   "/images/uase_website_screenshot_1.jpg"
-  ],
-  "live": "https://uase.tech",
-  "problem_solution": null,
-  "expertise": [
-   "Full-stack development combining robust backend logic with modern, responsive frontend design, ensuring a seamless user experience.",
-   "Comprehensive Django framework expertise: advanced URL routing, templating, powerful database ORM, and secure user authentication and authorization.",
-   "Seamless Bootstrap integration for creating a highly responsive and visually appealing UI, adaptable to all screen sizes.",
-   "Utilizing Python for efficient backend business logic, secure form handling, and potential API integrations.",
-   "Implementing JavaScript for dynamic UI enhancements, client-side form validations, and interactive effects across the site.",
-   "Strategic planning and execution for a secure user contact form with reCAPTCHA integration for spam protection and automated email notifications.",
-   "Developing a comprehensive content management system (CMS) via Django Admin for easy updates of services, projects, testimonials, and other site content.",
-   "Optimizing for fast loading speeds and a smooth user experience across the site."
   ]
  },
  {
