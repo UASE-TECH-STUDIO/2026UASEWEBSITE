@@ -11,7 +11,7 @@ export type Service = { slug: string; title: string; description: string; tools:
 
 export const projects = projectsJson as Project[];
 export const services = servicesJson as Service[];
-export const LINKEDIN = "https://www.linkedin.com/in/muhammedmustapha-abdullahi-bb897a309";
+export const LINKEDIN = "https://www.linkedin.com/in/uasetechstudio";
 export const EMAIL = "uasetechstudio@gmail.com";
 export const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 export const label = (c: string) => c.replace(/-/g, " ").replace(/\b\w/g, (m) => m.toUpperCase());

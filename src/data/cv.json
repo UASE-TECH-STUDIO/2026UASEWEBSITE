@@ -1,0 +1,97 @@
+{
+  "name": "Muhammedmustapha Abdullahi",
+  "nickname": "USTY",
+  "title": "Full-Stack Web & Mobile Developer | Founder, UASE Tech Studio Ltd",
+  "contact": {
+    "location": "Abuja, Nigeria · Remote worldwide",
+    "email": "uasetechstudio@gmail.com",
+    "whatsapp": "+234 913 354 9399",
+    "whatsappLink": "https://wa.me/2349133549399",
+    "site": "uase.tech",
+    "siteLink": "https://uase.tech",
+    "linkedin": "https://www.linkedin.com/in/uasetechstudio"
+  },
+  "profile": "Professional full-stack developer since 2020 and founder of a software company: trading under the UASE brand since 2024 and incorporated as **UASE Tech Studio Ltd** in 2026. I take whole products from a client's problem to the App Store, Google Play and production, covering planning, architecture, design, build, testing, launch and ongoing upgrades. Core stack: **Next.js, TypeScript, FastAPI, MongoDB Atlas and Capacitor** (iOS + Android).",
+  "hire": [
+    ["Hire me as a developer", "Full-time or contract, remote. Next.js, FastAPI and cross-platform mobile."],
+    ["Engage UASE Tech Studio Ltd", "A complete software team for your product, from design to launch and support. USD payments accepted."]
+  ],
+  "highlights": [
+    "Built and launched **CARSTRIMS** end to end: a five-role vehicle marketplace, live on the web, the App Store and Google Play.",
+    "Delivered 12+ production systems for healthcare, judiciary, automotive and logistics clients.",
+    "Trained and mentored 150+ students; remote-first, serving clients worldwide."
+  ],
+  "experience": [
+    {
+      "role": "Founder & Lead Software Engineer", "company": "UASE Tech Studio Ltd", "dates": "Jun 2026 – Present",
+      "sub": "CAC-registered software company (RC 9594186) · Abuja, Nigeria · Remote worldwide",
+      "points": [
+        "Registered UASE Tech Studio Ltd as a stand-alone software company, separate from the enterprise's other businesses, to take on complete software projects for clients worldwide.",
+        "Led **CARSTRIMS** from the client's problem to launch: planning, architecture, design, build, testing and release of a multi-role marketplace (dealer, staff, partner, buyer, super admin) on Next.js, FastAPI and MongoDB Atlas.",
+        "Shipped native iOS and Android apps from one Next.js codebase with Capacitor, including push notifications (FCM V1), real-time messaging, store submission and device-specific fixes.",
+        "Rebuilt the company site, uase.tech, in the same stack: blog, admin dashboard, visitor analytics, contact system and a responsive, mobile-first interface.",
+        "Run training for developers and office teams; serve international clients and accept payments in US dollars."
+      ]
+    },
+    {
+      "role": "Founder & Lead Developer", "company": "USTY Alhaji Service Enterprise", "dates": "Jan 2024 – May 2026",
+      "sub": "CAC-registered business trading under the UASE brand · Abuja, Nigeria",
+      "points": [
+        "Moved from working as an individual developer to running a registered business, delivering complete software systems for clients instead of isolated components.",
+        "Delivered systems for healthcare, judiciary, automotive and logistics clients, including **BloodLink** (blood donor platform) and a **Court Order Management System**.",
+        "Implemented a Facade-pattern service layer for scalable email and API management.",
+        "Mentored 150+ students on SIWES and final-year software projects across Nigerian universities."
+      ]
+    },
+    {
+      "role": "Independent Full-Stack Developer", "company": "Self-employed", "dates": "2020 – 2024",
+      "sub": "Nigeria · Remote",
+      "points": [
+        "Began professional full-stack development in 2020, after full-stack engineering training at Bro Tech Institute (2018 – 2020), and progressed from small projects to full client systems.",
+        "Built with Django, PostgreSQL, MySQL, PHP, JavaScript and Bootstrap before moving to the Next.js and FastAPI stack."
+      ]
+    },
+    {
+      "role": "Technical IT Assistant", "company": "Edge Meter / T4U / Sunstar", "dates": "2021 – 2023",
+      "sub": "Contract consulting",
+      "points": [
+        "Technical documentation and system audits for AY Global Integrated Services; secure data-handling procedures for institutional engineering audits.",
+        "Delivered Solar/Starlink integration projects to close connectivity gaps."
+      ]
+    },
+    {
+      "role": "IT Instructor", "company": "Heritage Computers / Ligo Computers", "dates": "2016 – 2020",
+      "sub": "Zaria, Nigeria",
+      "points": [
+        "Trained 150+ students in MS Office, CorelDRAW and UI/UX fundamentals; developed and delivered structured diploma curriculum."
+      ]
+    }
+  ],
+  "projects": [
+    { "name": "CARSTRIMS — Vehicle Marketplace (Web, iOS, Android)", "slug": "carstrims-car-dealer-platform", "tech": "Next.js · TypeScript · FastAPI · MongoDB Atlas · Capacitor",
+      "text": "Multi-role platform with public marketplace and voice search, inventory, sales and expense tracking, financial reports (PDF/JPG/Excel), WhatsApp sharing and push notifications.",
+      "links": [["Web", "https://www.carstrims.com"], ["App Store", "https://apps.apple.com/us/app/carstrims/id6788107489"], ["Google Play", "https://play.google.com/store/apps/details?id=com.uasetechstudio.carstrims&hl=en"]] },
+    { "name": "UASE Tech Studio website", "slug": "uase-tech-studio-website", "tech": "Next.js · FastAPI · MongoDB · Cloudinary",
+      "text": "Company site with portfolio, blog, resources, admin dashboard, analytics, zoomable galleries and WhatsApp-first contact.", "links": [["uase.tech", "https://uase.tech"]] },
+    { "name": "BloodLink — Blood Donor Platform", "slug": "bloodlink-blood-donor-management", "tech": "Next.js · MongoDB · NextAuth · Resend",
+      "text": "Healthcare platform connecting donors, beneficiaries and admins with automated emails and real-time matching.", "links": [] },
+    { "name": "Court Order Management System", "slug": "court-order-management-system", "tech": "Django · PostgreSQL",
+      "text": "Secure platform for issuing and tracking digital court orders across legal institutions.", "links": [] },
+    { "name": "Food Ordering App", "slug": "food-ordering-app", "tech": "React · Node.js · Capacitor",
+      "text": "Multi-vendor food platform with real-time tracking, shipped as a native Android app.", "links": [] }
+  ],
+  "skills": [
+    ["Frontend", "Next.js, React, TypeScript, Tailwind CSS, Zustand, responsive and mobile-first UI"],
+    ["Backend and data", "FastAPI, Python, REST APIs, WebSockets, JWT authentication, MongoDB Atlas"],
+    ["Mobile", "Capacitor (iOS + Android), Firebase Cloud Messaging, App Store and Google Play publishing, Xcode Cloud"],
+    ["Cloud and tools", "Vercel, Render, Cloudinary, Resend, Git, CI/CD"],
+    ["Professional", "System architecture, end-to-end project delivery, client communication, training and mentoring"],
+    ["Also experienced", "Django, PostgreSQL, MySQL, PHP, Node.js, Docker, MS Office, CorelDRAW"]
+  ],
+  "education": [
+    "BSc Computer Science — Ahmadu Bello University (ABU), Zaria",
+    "Technical Certificate, Full-Stack Engineering — Bro Tech Institute (2018 – 2020)",
+    "Diploma in Computing — Heritage Computers, Zaria",
+    "English proficiency C1 Advanced (EF SET 68/100)"
+  ]
+}

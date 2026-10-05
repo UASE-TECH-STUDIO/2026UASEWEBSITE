@@ -3,7 +3,7 @@ export const maxDuration = 60; // a sleeping free-tier backend can take up to a 
 export const dynamic = "force-dynamic";
 
 // Same-origin proxy for the admin area (and a health check), so the browser never needs CORS to reach the backend.
-const ALLOWED = /^(health|resources|admin\/[A-Za-z0-9_\-/]+)$/;
+const ALLOWED = /^(health|resources|posts\/[a-z0-9-]+\/(comments|like)|admin\/[A-Za-z0-9_\-/]+)$/;
 
 async function handler(req: NextRequest, ctx: { params: Promise<{ path: string[] }> }) {
   const p = (await ctx.params).path.join("/");

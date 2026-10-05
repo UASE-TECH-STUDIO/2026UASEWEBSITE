@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { API } from "@/lib/data";
 type C = { name: string; message: string; created: string };
 export default function Comments({ slug, initial }: { slug: string; initial: C[] }) {
   const [list, setList] = useState(initial), [err, setErr] = useState(""), [busy, setBusy] = useState(false);
@@ -8,7 +7,7 @@ export default function Comments({ slug, initial }: { slug: string; initial: C[]
     e.preventDefault(); setErr(""); setBusy(true);
     const form = e.currentTarget, f = Object.fromEntries(new FormData(form).entries());
     try {
-      const r = await fetch(`${API}/api/posts/${slug}/comments`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(f) });
+      const r = await fetch(`/api/backend/posts/${slug}/comments`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(f) });
       const d = await r.json();
       if (!r.ok) throw new Error(typeof d.detail === "string" ? d.detail : "Please check your comment");
       setList([d, ...list]); form.reset();
